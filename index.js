@@ -1,6 +1,6 @@
 var Flow = require( 'node.flow' );
 
-module.exports = function ( base_dir ){
+function coke( base_dir ){
   var flow = new Flow();
 
   // set global variables
@@ -84,3 +84,11 @@ module.exports = function ( base_dir ){
     require( CORE_DIR + 'server' )( app );
   });
 };
+
+
+
+coke.version = '0.0.2';
+
+
+
+module.exports = coke;
