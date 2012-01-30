@@ -1,0 +1,65 @@
+#!/usr/bin/env node
+
+var exist   = true;
+var coke    = require( '../index' );
+var cli     = require( '../lib/cli' );
+var g       = cli.generators;
+var args    = process.argv.slice( 2 );
+var command = args.shift();
+
+switch( command ){
+  case '-v':
+  case '--version':
+    console.log( coke.version );
+
+    break;
+
+  case 'n':
+  case 'new':
+    g.execute( 'init', args );
+    exit = false;
+
+    break;
+
+  case 'g':
+  case 'generate':
+    var action = args.shift();
+
+    if( typeof action == "undefined" || action == null ){
+      console.log( 'Generator not specified, available generators: ', g.list());
+    }else{
+      if( g.exists( action )){
+        g.execute( action, args );
+      }else{
+        console.log( 'Generator "' + action + '" not found, available generators: ', g.list());
+      }
+    }
+
+    exit = false;
+
+    break;
+
+  case 'r':
+  case 'routes':
+    cli.routes( args );
+
+    break;
+
+  case 's':
+  case 'server':
+    cli.server();
+
+    break;
+
+  case 'h':
+  case 'help':
+  default:
+    cli.help( g.list());
+
+    break;
+}
+
+
+
+exist && process.exit( 0 );
+
