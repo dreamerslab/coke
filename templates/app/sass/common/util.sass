@@ -1,0 +1,38 @@
+@import "lib"
+
+.center
+  margin-right: auto
+  margin-left: auto
+
+.align-c
+  text-align: center
+
+.align-r
+  text-align: right
+
+.float-l
+  @include float-l
+
+.float-r
+  @include float-r
+
+// clear float el
+.clearfix:after
+  content: "."
+  display: block
+  height: 0
+  clear: both
+  visibility: hidden
+
+.clearfix
+  display: inline-block
+
+// Hides from IE-mac
+* html .clearfix
+  height: 1%
+
+.clearfix
+  display: block
+
+.hidden
+  display: none

@@ -1,0 +1,49 @@
+<? it.styles.push( 'scaffold' ); ?>
+<? it.title = 'Listing users'; ?>
+<? it.nav_selected = 'users'; ?>
+
+<div id="table">
+  <table>
+    <thead>
+      <tr>
+        <th nowrap="nowrap">
+          Name
+        </th>
+        <th nowrap="nowrap">
+          Email
+        </th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <? it.users.forEach( function ( user ){ ?>
+
+      <tr>
+        <td>
+          <?= user.name ?>
+        </td>
+        <td>
+          <?= user.email ?>
+        </td>
+        <td>
+          <a href="/users/<?= user._id ?>">Show</a>
+        </td>
+        <td>
+          <a href="/users/<?= user._id ?>/edit">Edit</a>
+        </td>
+        <td>
+          <form action="/users/<?= user._id ?>" method="POST" accept-charset="UTF-8" >
+            <input type="hidden" name="_method" value="delete" />
+            <input type="hidden" name="_csrf" value="<?= it.csrf ?>" />
+            <input class="submit-link" type="submit" value="Delete" />
+          </form>
+        </td>
+      </tr>
+
+      <? }); ?>
+    </tbody>
+  </table>
+</div>
+<a href="/users/new">New user</a>

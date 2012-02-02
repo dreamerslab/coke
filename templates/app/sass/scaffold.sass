@@ -1,0 +1,50 @@
+@import "compass/css3/inline-block"
+
+@mixin submit-link
+  @include inline-block
+  font-size: 14px
+  font-weight: bolder
+  color: #333
+  &:hover
+    background: #555
+    color: white
+
+#content
+
+  th, td
+    text-align: center
+
+  th
+    font-weight: bolder
+    padding: 10px
+
+  td
+    padding: 5px 10px
+
+  a
+    @include submit-link
+    line-height: 1.5em
+    padding: 0 8px
+
+#table
+  padding: 0 0 15px 10px
+  line-height: 1.5em
+
+.form-row
+  padding: 0 0 10px
+
+.form-title
+  @include inline-block
+  font-weight: bolder
+  padding: 0 10px 0 0
+
+.submit-link
+  @include submit-link
+  background: white
+  border: none
+  padding: 3px 5px
+
+.text-input
+  width: 150px
+  padding: 4px
+  border: 1px solid #ccc

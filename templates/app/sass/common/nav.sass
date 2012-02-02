@@ -1,0 +1,22 @@
+@import "lib"
+
+nav
+  position: absolute
+  top: 150px
+  left: 0
+
+  li
+    @include float-l
+    margin: 0 10px 0 0
+
+  a
+    display: block
+    padding: 0 10px
+    font-size: 20px
+    &:hover
+      background: #666
+      color: white
+
+  .selected
+    background: black
+    color: white

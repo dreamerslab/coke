@@ -1,0 +1,25 @@
+{
+  "name"        : "coke",
+  "version"     : "0.0.1",
+  "private"     : true,
+  "dependencies": {
+    "cli-color"       : "0.1.6",
+    "coke"            : "0.0.2",
+    "connect-mongodb" : "1.1.2",
+    "dateformat"      : "",
+    "express"         : "2.5.6",
+    "express-messages": "0.0.2",
+    "inflection"      : "0.0.1",
+    "js-yaml"         : "0.3.5",
+    "mkdirp"          : "0.3.0",
+    "mongoose"        : "2.5.2",
+    "node.flow"       : "0.0.3",
+    "node.packer"     : "0.0.6",
+    "railway-routes"  : "0.0.4",
+    "rmdirr"          : "0.0.1",
+    "thunder"         : "0.0.1"
+  },
+  "devDependencies" : {
+    "vows" : "0.6.0"
+  }
+}

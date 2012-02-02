@@ -1,0 +1,145 @@
+$sprite: sprite-map( "sprite/*.png" )
+
+@mixin box-round( $radius: 3px )
+  -webkit-background-clip: padding-box
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -o-border-radius: $radius
+  -khtml-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+
+@mixin box-round-each( $u: 3px, $r: 3px, $b: 3px, $l: 3px )
+  -webkit-background-clip: padding-box
+  -webkit-border-radius: $u $r $b $l
+  -moz-border-radius: $u $r $b $l
+  -o-border-radius: $u $r $b $l
+  -khtml-border-radius: $u $r $b $l
+  -ms-border-radius: $u $r $b $l
+  border-radius: $u $r $b $l
+
+@mixin box-shadow( $x: 2px, $y: 2px, $blur: 5px, $spread: 0, $color: rgba(0,0,0,.6) )
+  -webkit-box-shadow: $x $y $blur $spread $color
+  -moz-box-shadow: $x $y $blur $spread $color
+  box-shadow: $x $y $blur $spread $color
+
+@mixin box-sink( $x: 2px, $y: 2px, $blur: 5px, $spread: 0, $color: rgba(0,0,0,.6) )
+  -webkit-box-shadow: inset $x $y $blur $spread $color
+  -moz-box-shadow: inset $x $y $blur $spread $color
+  box-shadow: inset $x $y $blur $spread $color
+
+@mixin box-gradient( $begin: black, $end: white, $switch : 100% )
+  background-color:  $begin
+  background: -webkit-gradient(linear, 0 0, 0 100%, from($begin), color-stop($switch, $end)) // Saf4+, Chrome
+  background: -moz-linear-gradient(top, $begin, $end $switch) // FF3.6
+  background: linear-gradient(top, $begin, $end $switch)
+  -pie-background: linear-gradient($begin, $end)
+
+@mixin box-rotate( $deg : 90deg )
+  -webkit-transform: rotate( $deg ) // Saf3.1+, Chrome
+  -moz-transform: rotate( $deg )  // FF3.5+
+  -o-transform: rotate( $deg ) // Opera 10.5
+  -ms-transform: rotate( $deg ) // IE9
+  transform: rotate( $deg )
+
+@mixin box-transition( $what: all, $length: 1s, $easing: ease-in-out )
+  -webkit-transition: $what $length $easing
+  -moz-transition: $what $length $easing
+  -o-transition: $what $length $easing
+  transition: $what $length $easing
+
+@mixin outline-radius( $radius: 3px )
+  -webkit-outline-radius: $radius
+  -moz-outline-radius: $radius
+  outline-radius: $radius
+
+@mixin transform( $params )
+  -webkit-transform: $params
+  -moz-transform: $params
+  transform: $params
+
+@mixin box( $orient: horizontal, $pack: center, $align: center )
+  display: -webkit-box
+  display: -moz-box
+  display: box
+  -webkit-box-orient: $orient
+  -moz-box-orient: $orient
+  box-orient: $orient
+  -webkit-box-pack: $pack
+  -moz-box-pack: $pack
+  box-pack: $pack
+  -webkit-box-align: $align
+  -moz-box-align: $align
+  box-align: $align
+
+@mixin flex( $val: 1 )
+  -webkit-box-flex: $val
+  -moz-box-flex: $val
+  box-flex: $val
+
+@mixin resize( $direction )
+  -webkit-resize: $direction
+  -moz-resize: $direction
+  resize: $direction
+
+@mixin double-borders( $colorOne: green, $colorTwo: red, $radius: 0 )
+  border: 1px solid $colorOne
+  -webkit-box-shadow: 0 0 0 1px $colorTwo
+  -moz-box-shadow: 0 0 0 1px $colorTwo
+  box-shadow: 0 0 0 1px $colorTwo
+  @include box-round( $radius )
+
+@mixin triple-borders( $colorOne: green, $colorTwo: red, $colorThree: blue, $radius: 0 )
+  border: 1px solid $colorOne
+  @include box-round( $radius )
+  -webkit-box-shadow: 0 0 0 1px $colorTwo, 0 0 0 2px $colorThree
+  -moz-box-shadow: 0 0 0 1px $colorTwo, 0 0 0 2px $colorThree
+  box-shadow: 0 0 0 1px $colorTwo, 0 0 0 2px $colorThree
+
+@mixin columns( $count: 3, $gap: 10 )
+  -webkit-column-count: $count
+  -moz-column-count: $count
+  column-count: $count
+
+  -webkit-column-gap: $gap
+  -moz-column-gap: $gap
+  column-gap: $gap
+
+@mixin box-sizing( $type: border-box )
+  -webkit-box-sizing: $type
+  -moz-box-sizing: $type
+  box-sizing: $type
+
+@mixin select( $select: none )
+  -webkit-user-select: $select
+  -moz-user-select: $select
+  -o-user-select: $select
+  user-select: $select
+
+@mixin opacity( $opacity: 0 )
+  @if $opacity == 0
+    -moz-opacity: 0
+    -khtml-opacity: 0
+    opacity: 0
+  @else
+    -moz-opacity: $opacity / 100
+    -khtml-opacity: $opacity / 100
+    opacity: $opacity / 100
+  filter: alpha( opacity=$opacity )
+
+@mixin float-l
+  float: left
+  display: inline
+
+@mixin float-r
+  float: right
+  display: inline
+
+@mixin _sprite( $dir, $file, $x:0, $y:0 )
+  background: $dir no-repeat sprite-position( $dir, $file, $x, $y )
+
+@mixin bg_text( $width, $height, $sprite-name )
+  text-indent: -9999px
+  width: $width
+  height: $height
+  @include _sprite( $sprite, $sprite-name )
