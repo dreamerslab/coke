@@ -1,15 +1,25 @@
 {
-  "name" : "coke",
-  "version" : "0.0.2",
-  "description" : "COKE is a lightweight node.js MVC framework that speeds up your web development.",
-  "bin" : { "yu" : "./bin/coke" },
-  "keywords" : [ "mvc", "express", "express mvc", "connect", "coke" ],
-  "author" : "dreamerslab <ben@dreamerslab.com>",
-  "dependencies" : {},
-  "repository" : {
-    "type" : "git",
+  "name"       : "coke",
+  "version"    : "0.0.2",
+  "description": "COKE is a lightweight node.js MVC framework that speeds up your web development.",
+  "bin"        : {
+    "coke": "./bin/coke",
+    "co"  : "./bin/coke"
+  },
+  "keywords": [ "mvc", "express", "express mvc", "connect", "coke" ],
+  "author"  : "dreamerslab <ben@dreamerslab.com>",
+  "dependencies": {
+    "cli-color"     : "0.1.6",
+    "express"       : "2.5.6",
+    "inflection"    : "0.0.1",
+    "node.flow"     : "0.0.3",
+    "railway-routes": "0.0.4"
+  },
+  "repository": {
+    "type": "git",
     "url" : "https://github.com/dreamerslab/coke.git"
   },
-  "main" : "index",
-  "engines" : [ "node >= 0.4.0" ]
+  "main"   : "index",
+  "engines": [ "node >= 0.6.0" ],
+  "license": "MIT"
 }
