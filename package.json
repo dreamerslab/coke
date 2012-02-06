@@ -10,7 +10,7 @@
   "author"  : "dreamerslab <ben@dreamerslab.com>",
   "dependencies": {
     "cli-color"     : "0.1.6",
-    "express"       : "2.5.6",
+    "express"       : "2.5.7",
     "inflection"    : "0.0.1",
     "node.flow"     : "0.0.3",
     "railway-routes": "0.0.4"
