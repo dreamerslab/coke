@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var exist   = true;
+var exit    = true;
 var coke    = require( '../index' );
 var cli     = require( '../lib/cli' );
 var g       = cli.generators;
@@ -23,6 +23,8 @@ switch( command ){
 
   case 'g':
   case 'generate':
+    // check if this is project root
+
     var action = args.shift();
 
     if( typeof action == "undefined" || action == null ){
@@ -48,11 +50,14 @@ switch( command ){
   case 's':
   case 'server':
     cli.server();
+    exit = false;
 
     break;
 
   case 'h':
   case 'help':
+  case '-h':
+  case '--help':
   default:
     cli.help( g.list());
 
@@ -61,5 +66,5 @@ switch( command ){
 
 
 
-exist && process.exit( 0 );
+exit && process.exit( 0 );
 
