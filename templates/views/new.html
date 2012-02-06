@@ -1,0 +1,11 @@
+<? it.styles.push( 'scaffold' ); ?>
+<? it.title = 'New user'; ?>
+<? it.nav_selected = 'users'; ?>
+
+<form action="/users" method="POST" accept-charset="UTF-8" >
+  <div id="table">
+    <?= it.partial( 'users/form' ) ?>
+  </div>
+  <input class="submit-link" type="submit" value="Create user" /> |
+  <a href="/users">Back</a>
+</form>

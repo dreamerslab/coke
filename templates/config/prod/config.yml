@@ -1,0 +1,22 @@
+# development
+server:
+  host: 127.0.0.1
+  port: 4000
+  timezone: 'UTC'
+
+db:
+  db: coke
+  host: localhost
+  # optional, default: 27017
+  port : 27963
+  # optional
+  username :
+  # optional
+  password :
+  # optional, default: sessions
+  collection : sessions
+
+logs:
+  - error
+
+libs: []

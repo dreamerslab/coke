@@ -1,0 +1,29 @@
+<? it.styles.push( 'scaffold' ); ?>
+<? it.title = 'User detail'; ?>
+<? it.nav_selected = 'users'; ?>
+
+<div id="table">
+  <div class="form-row">
+    <label class="form-title" >ID : </label>
+    <label ><?= it.user._id ?></label>
+  </div>
+  <div class="form-row">
+    <label class="form-title" >Name : </label>
+    <label ><?= it.user.name ?></label>
+  </div>
+  <div class="form-row">
+    <label class="form-title" >Email : </label>
+    <label ><?= it.user.email ?></label>
+  </div>
+  <div class="form-row">
+    <label class="form-title" >Created at : </label>
+    <label ><?= it.date( it.user.created_at ) ?></label>
+  </div>
+  <div class="form-row">
+    <label class="form-title" >Updated at : </label>
+    <label ><?= it.date( it.user.updated_at ) ?></label>
+  </div>
+</div>
+
+<a href="/users/<?= it.user._id ?>/edit">Edit</a> |
+<a href="/users">Back</a>

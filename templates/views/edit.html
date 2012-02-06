@@ -1,0 +1,13 @@
+<? it.styles.push( 'scaffold' ); ?>
+<? it.title = 'Editing user'; ?>
+<? it.nav_selected = 'users'; ?>
+
+<form action="/users/<?= it.user._id ?>" method="POST" accept-charset="UTF-8" >
+  <input type="hidden" name="_method" value="put" />
+  <div id="table">
+    <?= it.partial( 'users/_form' ) ?>
+  </div>
+  <input class="submit-link" type="submit" value="Update user" /> |
+  <a href="/users/<?= it.user._id ?>">Show</a> |
+  <a href="/users">Back</a>
+</form>

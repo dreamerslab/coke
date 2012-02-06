@@ -1,0 +1,9 @@
+<input type="hidden" name="_csrf" value="<?= it.csrf ?>" />
+<div class="form-row">
+  <label class="form-title" for="user[name]">Name : </label>
+  <input class="text-input" type="text" name="user[name]" value="<?= it.val( it.user, 'name' ) ?>"/>
+</div>
+<div class="form-row">
+  <label class="form-title" for="user[email]">Email : </label>
+  <input class="text-input" type="text" name="user[email]" value="<?= it.val( it.user, 'email' ) ?>"/>
+</div>
