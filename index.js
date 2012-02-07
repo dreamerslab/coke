@@ -87,7 +87,7 @@ function coke( base_dir ){
 
 
 
-coke.version = '0.0.3';
+coke.version = '0.0.4';
 
 
 

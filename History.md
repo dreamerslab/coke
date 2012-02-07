@@ -1,6 +1,13 @@
+## 0.0.4 / 2012-02-08
+
+  - [bug fix] Update coke version of package.json in code generator template
+
+
+
 ## 0.0.3 / 2012-02-08
 
   - [bug fix] Add connect as dependency
+  - [bug fix] Update coke version of package.json in code generator template
 
 
 
