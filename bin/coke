@@ -16,27 +16,14 @@ switch( command ){
 
   case 'n':
   case 'new':
-    g.execute( 'init', args );
+    g.execute( 'new', args );
     exit = false;
 
     break;
 
   case 'g':
   case 'generate':
-    // check if this is project root
-
-    var action = args.shift();
-
-    if( typeof action == "undefined" || action == null ){
-      console.log( 'Generator not specified, available generators: ', g.list());
-    }else{
-      if( g.exists( action )){
-        g.execute( action, args );
-      }else{
-        console.log( 'Generator "' + action + '" not found, available generators: ', g.list());
-      }
-    }
-
+    g.init( args );
     exit = false;
 
     break;

@@ -1,13 +1,13 @@
 <? it.styles.push( 'scaffold' ); ?>
-<? it.title = 'Editing user'; ?>
-<? it.nav_selected = 'users'; ?>
+<? it.title = 'Editing DASH'; ?>
+<? it.nav_selected = 'DASH'; ?>
 
-<form action="/users/<?= it.user._id ?>" method="POST" accept-charset="UTF-8" >
+<form action="/VIEW_PATH/<?= it.SINGULAR._id ?>" method="POST" accept-charset="UTF-8" >
   <input type="hidden" name="_method" value="put" />
   <div id="table">
-    <?= it.partial( 'users/_form' ) ?>
+    <?= it.partial( 'VIEW_PATH/_form' ) ?>
   </div>
-  <input class="submit-link" type="submit" value="Update user" /> |
-  <a href="/users/<?= it.user._id ?>">Show</a> |
-  <a href="/users">Back</a>
+  <input class="submit-link" type="submit" value="Update SDASH" /> |
+  <a href="/VIEW_PATH/<?= it.SINGULAR._id ?>">Show</a> |
+  <a href="/VIEW_PATH">Back</a>
 </form>

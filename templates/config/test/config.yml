@@ -5,7 +5,7 @@ server:
   timezone: 'UTC'
 
 db:
-  db: coke-test
+  db: APPNAME-test
   host: localhost
   # optional, default: 27017
   port : 27017

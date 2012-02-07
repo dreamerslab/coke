@@ -1,107 +1,107 @@
 var mongoose = require( 'mongoose' );
-var Model    = mongoose.model( 'Model' );
-var _super   = require( './application' );
+var CAPITAL = mongoose.model( 'CAPITAL' );
+var _super = require( CONTROLLER_DIR + 'application' );
 
 
 
 module.exports = {
 
   'new' : function ( req, res, next ){
-    res.render( 'models/new' );
+    res.render( 'VIEW_PATH/new' );
   },
 
   create : function ( req, res, next ){
-    Model.create_or_update( new Model(), req.body.model,
-      function ( err, model ){
+    CAPITAL.create_or_update( new CAPITAL(), req.body.SINGULAR,
+      function ( err, SINGULAR ){
         if( err ){
           next( err );
           return;
         }
 
-        req.flash( 'flash-info', 'Model created' );
-        res.redirect( '/models/' + model._id );
+        req.flash( 'flash-info', 'CAPITAL created' );
+        res.redirect( '/VIEW_PATH/' + SINGULAR._id );
       });
   },
 
   index : function ( req, res, next ){
-    Model.find( function ( err, models ){
+    CAPITAL.find( function ( err, PLURAL ){
       if( err ){
         next( err );
         return;
       }
 
-      res.render( 'models/index', {
-        models : models
+      res.render( 'VIEW_PATH/index', {
+        PLURAL : PLURAL
       });
     });
   },
 
   show : function ( req, res, next ){
-    Model.findById( req.params.id , function ( err, model ){
-      if( model ){
-        res.render( 'models/show', {
-          model : model
+    CAPITAL.findById( req.params.id , function ( err, SINGULAR ){
+      if( SINGULAR ){
+        res.render( 'VIEW_PATH/show', {
+          SINGULAR : SINGULAR
         });
 
         return;
       }
 
-      _super.record_not_found( 'Model', req, res, err );
+      _super.record_not_found( 'CAPITAL', req, res, err );
     });
   },
 
   edit : function ( req, res, next ){
-    Model.findById( req.params.id , function ( err, model ){
-      if( model ){
-        res.render( 'models/edit', {
-          model : model
+    CAPITAL.findById( req.params.id , function ( err, SINGULAR ){
+      if( SINGULAR ){
+        res.render( 'VIEW_PATH/edit', {
+          SINGULAR : SINGULAR
         });
 
         return;
       }
 
-      _super.record_not_found( 'Model', req, res, err );
+      _super.record_not_found( 'CAPITAL', req, res, err );
     });
   },
 
   update : function ( req, res, next ){
-    Model.findById( req.params.id , function ( err, model ){
-      if( model ){
-        Model.create_or_update( model, req.body.model,
-          function ( err, model ){
+    CAPITAL.findById( req.params.id , function ( err, SINGULAR ){
+      if( SINGULAR ){
+        CAPITAL.create_or_update( SINGULAR, req.body.SINGULAR,
+          function ( err, SINGULAR ){
             if( err ){
               next( err );
               return;
             }
 
-            req.flash( 'flash-info', 'Model updated' );
-            res.redirect( '/models/' + model._id );
+            req.flash( 'flash-info', 'CAPITAL updated' );
+            res.redirect( '/VIEW_PATH/' + SINGULAR._id );
           });
 
         return;
       }
 
-      _super.record_not_found( 'Model', req, res, err );
+      _super.record_not_found( 'CAPITAL', req, res, err );
     });
   },
 
   destroy : function ( req, res, next ){
-    Model.findById( req.params.id , function ( err, model ){
-      if( model ){
-        model.remove( function ( err, model ){
+    CAPITAL.findById( req.params.id , function ( err, SINGULAR ){
+      if( SINGULAR ){
+        SINGULAR.remove( function ( err, SINGULAR ){
           if( err ){
             next( err );
             return;
           }
 
-          req.flash( 'flash-info', 'Model deleted' );
-          res.redirect( '/models' );
+          req.flash( 'flash-info', 'CAPITAL deleted' );
+          res.redirect( '/VIEW_PATH' );
         });
 
         return;
       }
 
-      _super.record_not_found( 'Model', req, res, err );
+      _super.record_not_found( 'CAPITAL', req, res, err );
     });
   }
 };

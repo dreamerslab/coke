@@ -1,11 +1,11 @@
 <? it.styles.push( 'scaffold' ); ?>
-<? it.title = 'New user'; ?>
-<? it.nav_selected = 'users'; ?>
+<? it.title = 'New DASH'; ?>
+<? it.nav_selected = 'DASH'; ?>
 
-<form action="/users" method="POST" accept-charset="UTF-8" >
+<form action="/VIEW_PATH" method="POST" accept-charset="UTF-8" >
   <div id="table">
-    <?= it.partial( 'users/form' ) ?>
+    <?= it.partial( 'VIEW_PATH/form' ) ?>
   </div>
-  <input class="submit-link" type="submit" value="Create user" /> |
-  <a href="/users">Back</a>
+  <input class="submit-link" type="submit" value="Create SDASH" /> |
+  <a href="/VIEW_PATH">Back</a>
 </form>
