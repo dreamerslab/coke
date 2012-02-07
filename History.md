@@ -1,4 +1,4 @@
-## 0.0.2 / 2012-02-04
+## 0.0.2 / 2012-02-08
 
   - Add CLI tools. Including version, help, routes, server and generators
 
