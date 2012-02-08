@@ -1,3 +1,9 @@
+## 0.0.5 /
+
+  - Generators exit behavior refactoring
+
+
+
 ## 0.0.4 / 2012-02-08
 
   - [bug fix] Update coke version of package.json in code generator template
