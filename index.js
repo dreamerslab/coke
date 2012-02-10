@@ -1,4 +1,7 @@
+var fs   = require( 'fs' );
 var Flow = require( 'node.flow' );
+
+
 
 function coke( base_dir ){
   var flow = new Flow();
@@ -87,7 +90,7 @@ function coke( base_dir ){
 
 
 
-coke.version = '0.0.4';
+coke.version = JSON.parse( fs.readFileSync( './package.json', 'utf8' )).version;
 
 
 

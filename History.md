@@ -1,5 +1,11 @@
+## 0.1.2 / 2012-02-10
+  - [bug fix] Correct the version number
+  - [refactoring] Read package.json for getting the version instead of hard-coded in the index.js
+
+
+
 ## 0.1.1 / 2012-02-10
-  - [update packages] update express->2.5.8, mongoose->2.5.7
+  - [update packages] Update express->2.5.8, mongoose->2.5.7
 
 
 
