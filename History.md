@@ -1,7 +1,8 @@
-## 0.0.5 /
+## 0.1.0 / 2012-02-10
 
   - [refactoring] Generators exit behavior refactoring
   - [new feature] Automatically add 'required' and 'index' the the first field of a collection
+  - [bug fix] New generator generate err400.html instead of err404.html
 
 
 
