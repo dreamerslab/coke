@@ -1,6 +1,7 @@
 ## 0.0.5 /
 
-  - Generators exit behavior refactoring
+  - [refactoring] Generators exit behavior refactoring
+  - [new feature] Automatically add 'required' and 'index' the the first field of a collection
 
 
 
@@ -19,7 +20,7 @@
 
 ## 0.0.2 / 2012-02-08
 
-  - Add CLI tools. Including version, help, routes, server and generators
+  - [new feature] Add CLI tools. Including version, help, routes, server and generators
 
 
 
