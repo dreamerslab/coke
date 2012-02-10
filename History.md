@@ -1,3 +1,8 @@
+## 0.1.1 / 2012-02-10
+  - [update packages] update express->2.5.8, mongoose->2.5.7
+
+
+
 ## 0.1.0 / 2012-02-10
 
   - [refactoring] Generators exit behavior refactoring

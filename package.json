@@ -1,6 +1,6 @@
 {
   "name"       : "coke",
-  "version"    : "0.1.0",
+  "version"    : "0.1.1",
   "description": "COKE is a lightweight node.js MVC framework that speeds up your web development.",
   "bin"        : {
     "coke": "./bin/coke",
@@ -11,7 +11,7 @@
   "dependencies": {
     "cli-color"     : "0.1.6",
     "connect"       : "1.8.5",
-    "express"       : "2.5.7",
+    "express"       : "2.5.8",
     "inflection"    : "1.0.0",
     "node.flow"     : "0.0.3",
     "railway-routes": "0.0.4"
