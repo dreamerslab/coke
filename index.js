@@ -33,39 +33,32 @@ function coke( base_dir ){
   }).
 
   // load express
-  parallel( function ( ready ){
+  series( function ( next ){
     LOG.sys( 'loading core module: express' );
-    require( CORE_DIR + 'express' )( ready );
+    require( CORE_DIR + 'express' )( next );
   }).
 
   // load lib
-  parallel( function ( ready ){
+  parallel( function ( app, ready ){
     LOG.sys( 'loading core module: lib' );
-    require( CORE_DIR + 'lib' );
+    require( CORE_DIR + 'lib' )( app, ready );
+  }).
+
+  // load helper
+  parallel( function ( app, ready ){
+    LOG.sys( 'Loading helper: application' );
+    require( HELPER_DIR + 'application' )( app );
     ready();
   }).
 
-  join().
-
-  // load helper
-  parallel( function ( results, ready ){
-    var app = results[ 0 ][ 0 ];
-
-    LOG.sys( 'Loading helper: application' );
-    require( HELPER_DIR + 'application' )( app );
-    ready( app );
-  }).
-
   // load assets
-  parallel( function ( results, ready ){
-    var app = results[ 0 ][ 0 ];
-
+  parallel( function ( app, ready ){
     LOG.sys( 'loading core module: assets' );
     require( CORE_DIR + 'assets' )( app, ready );
   }).
 
   // overwrite res.send
-  parallel( function ( results, ready ){
+  parallel( function ( app, ready ){
     LOG.sys( 'Overwriting express res.send' );
     require( CORE_DIR + 'response' );
     ready();
@@ -90,7 +83,8 @@ function coke( base_dir ){
 
 
 
-coke.version = JSON.parse( fs.readFileSync( './package.json', 'utf8' )).version;
+coke.version = JSON.parse( fs.readFileSync( __dirname + '/package.json', 'utf8' )).version;
+coke.utils   = require( './lib/utils' );
 
 
 
