@@ -1,11 +1,22 @@
+## 0.1.3 / 2012-02-13
+
+  - [bug fix] typo in assets.yml config file
+  - [refactoring] Server start flow control
+  - [refactoring] Check libs length before calling
+  - [refactoring] Rename read to callback, move callback out of the if statement
+  - [update packages] inflection->1.1.0, node.flow->0.1.0
+
+
+
 ## 0.1.2 / 2012-02-10
+
   - [bug fix] Correct the version number
   - [refactoring] Read package.json for getting the version instead of hard-coded in the index.js
 
 
 
 ## 0.1.1 / 2012-02-10
-  - [update packages] Update express->2.5.8, mongoose->2.5.7
+  - [update packages] express->2.5.8, mongoose->2.5.7
 
 
 
