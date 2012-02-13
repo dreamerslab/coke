@@ -6,8 +6,8 @@ path:
 
 # cdn setting
 asset_host:
-  # - htttp://assets1.example.com
-  # - htttp://assets2.example.com
+  # - http://assets1.example.com
+  # - http://assets2.example.com
 
 css:
   # css group name
