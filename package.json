@@ -12,8 +12,8 @@
     "cli-color"     : "0.1.6",
     "connect"       : "1.8.5",
     "express"       : "2.5.8",
-    "inflection"    : "1.0.0",
-    "node.flow"     : "0.0.3",
+    "inflection"    : "1.1.0",
+    "node.flow"     : "0.1.0",
     "railway-routes": "0.0.4"
   },
   "repository": {
