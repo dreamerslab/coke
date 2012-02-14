@@ -1,3 +1,10 @@
+## 0.2.0 / 2012-02-13
+
+  - [new feature] Add libs that can be run right after server start
+  - [update packages] node.flow->1.1.0
+  - [refactoring] Logging before require core module
+
+
 ## 0.1.3 / 2012-02-13
 
   - [bug fix] typo in assets.yml config file
@@ -16,6 +23,7 @@
 
 
 ## 0.1.1 / 2012-02-10
+
   - [update packages] express->2.5.8, mongoose->2.5.7
 
 
