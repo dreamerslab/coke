@@ -3,6 +3,7 @@ server:
   host: 127.0.0.1
   port: 4000
   timezone: 'UTC'
+  cluster: false
 
 db:
   db: APPNAME-dev
