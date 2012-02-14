@@ -1,8 +1,15 @@
-## 0.2.0 / 2012-02-13
+## 0.3.0 / 2012-02-14
+
+  - [new feature] Cluster support
+
+
+
+## 0.2.0 / 2012-02-14
 
   - [new feature] Add libs that can be run right after server start
   - [update packages] node.flow->1.1.0
   - [refactoring] Logging before require core module
+
 
 
 ## 0.1.3 / 2012-02-13
