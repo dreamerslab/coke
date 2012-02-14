@@ -24,3 +24,6 @@ logs:
   - debug
 
 libs: []
+
+# libs that must run after server started
+started: []
