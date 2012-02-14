@@ -39,26 +39,34 @@ function coke( base_dir ){
   }).
 
   // load lib
-  parallel( function ( app, ready ){
+  parallel( function ( results, ready ){
+    var app = results[ 0 ];
+
     LOG.sys( 'loading core module: lib' );
     require( CORE_DIR + 'lib' )( app, ready );
   }).
 
   // load helper
-  parallel( function ( app, ready ){
+  parallel( function ( results, ready ){
+    var app = results[ 0 ];
+
     LOG.sys( 'Loading helper: application' );
     require( HELPER_DIR + 'application' )( app );
     ready();
   }).
 
   // load assets
-  parallel( function ( app, ready ){
+  parallel( function ( results, ready ){
+    var app = results[ 0 ];
+
     LOG.sys( 'loading core module: assets' );
     require( CORE_DIR + 'assets' )( app, ready );
   }).
 
   // overwrite res.send
-  parallel( function ( app, ready ){
+  parallel( function ( results, ready ){
+    var app = results[ 0 ];
+
     LOG.sys( 'Overwriting express res.send' );
     require( CORE_DIR + 'response' );
     ready();
@@ -75,9 +83,15 @@ function coke( base_dir ){
   }).
 
   // start server
-  end( function ( app ){
+  series( function ( app, next ){
     LOG.sys( 'loading core module: server' );
-    require( CORE_DIR + 'server' )( app );
+    require( CORE_DIR + 'server' )( app, next );
+  }).
+
+  // load 'after server start libs'
+  end( function ( app ){
+    LOG.sys( 'loading core module: started' );
+    require( CORE_DIR + 'started' )( app );
   });
 };
 
