@@ -1,3 +1,10 @@
+## 0.3.1 / 2012-02-15
+
+  - [refactoring] Remove useless `return` in generators
+  - [new feature] Add logging pid for logger module
+
+
+
 ## 0.3.0 / 2012-02-14
 
   - [new feature] Cluster support
