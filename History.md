@@ -1,3 +1,10 @@
+## 0.3.2 / 2012-02-15
+
+  - [refactoring] Remove useless generator templates
+  - [refactoring] Use Object.keys instead of for in loop
+
+
+
 ## 0.3.1 / 2012-02-15
 
   - [refactoring] Remove useless `return` in generators
