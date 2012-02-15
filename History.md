@@ -1,6 +1,7 @@
-## 0.3.3 / 2012-02-15
+## 0.3.3 / 2012-02-16
 
   - [update packages] thunder->0.0.2
+  - [refactoring] Move generator templates inside generator dir
 
 
 
