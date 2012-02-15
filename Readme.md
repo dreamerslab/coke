@@ -54,11 +54,11 @@
   - Fastest template parsing with [thunder](https://github.com/dreamerslab/thunder). It renders over a million pages within a second. However it can be replaced with any express compatible ones if you don't like it.
   - RESTful routing, supports namespace and nested resource. Thanks to [RailwayJS](http://railwayjs.com/).
   - Assets management (something like assets pipeline in rails). COKE uses a YAML file to manage al your assets. You can group them, specify which assets to be used in the action view. On production they will be combined and minified with a version number at the end.
-  - Middleware and 3rd party lib support, which means all the [express](http://expressjs.com/) and [connect](http://www.senchalabs.org/connect/) middlewares can be used directly
-  - Comprehensive logger for debugging
-  - Powerful generators for project prototyping
-  - Cluster support
-  - Socket.io compatible
+  - Middleware and 3rd party lib support, which means all the [express](http://expressjs.com/) and [connect](http://www.senchalabs.org/connect/) middlewares can be used directly/
+  - Comprehensive logger for debugging.
+  - Powerful generators for project prototyping.
+  - Cluster support.
+  - Socket.io compatible.
 
 
 
