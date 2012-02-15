@@ -1,47 +1,79 @@
 # COKE
 
-A light weight MVC framework base on [express](http://expressjs.com/). *NOTE : It is still under heavy development, you might not want to use it for now.
-
-
-
-## Description
-
-  `COKE` does not aim to be the `rails` for `node.js`. It does not add magic to `express`, instead it provides a better format for your project. It makes you easier to manage your code.
+“ COKE is a node.js MVC framework base on [Express](http://expressjs.com/). It does not add too many magic, instead it provides a clean and well structured project bootstrap.”
 
 
 
 ## Requires
 
-  - node >= 0.4.x
-  - java jre6 for [YUI-compressor](http://developer.yahoo.com/yui/compressor/) which is used on packing assets
+  - node >= 0.6.x
+  - npm >= 1.0.x
+  - mongodb >= 2.0.X
+  - Java jre6 for [YUI-compressor](http://developer.yahoo.com/yui/compressor/) which is used on packing assets
+  - python >= 2.6 for reading YAML files
+  - packages
+    - see packages.json
 
 
 
 ## Installation
 
-> Ubuntu install java jre6
+  - Set up node.js development enviroment, on [Mac](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-mac-osx-lion/) or [Ubuntu](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-ubuntu-11-04/)
+
+  - Ubuntu install java jre6
+
+<!---->
 
     $ sudo apt-get install python-software-properties
     $ sudo add-apt-repository ppa:ferramroberto/java
     $ sudo apt-get update
     $ sudo apt-get install sun-java6-jre
 
-> Install `coke`
+  - Install through npm
 
-    npm install coke
+<!---->
+
+    npm install coke -g
 
 
 
-## TODOs
+## Quick start
 
-- Adding more docs
+    coke new blog && cd blog
+    npm install -l
+    coke g scaffold posts title content is_public:bool
+    coke s
+    open http://127.0.0.1:4000
+
+
+
+## Features
+
+  - MVC structure
+  - Mongoose as ODM (mongodb)
+  - Fastest template engine 'thunder'. Can be replace with any express compatible template engine
+  - RESTful routing, supports namespace and nested resource routes
+  - Assets management (something like assets pipeline in rails)
+  - Middleware and 3rd party lib support, which means all the express and connect middleware can be used directly
+  - Comprehensive logger for debugging
+  - Powerful generators for project prototyping
+  - Socket.io compatible
+
+
+
+## Todo
+
+  - Add docs
+  - Add tests
+  - Add examples
+
 
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2011 dreamerslab &lt;ben@dreamerslab.com&gt;
+Copyright (c) 2012 dreamerslab &lt;ben@dreamerslab.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
