@@ -1,6 +1,6 @@
 # COKE
 
-“ COKE is a node.js MVC framework base on [Express](http://expressjs.com/). It does not add too many magic, instead it provides a clean and well structured project bootstrap.”
+“ COKE is a node.js MVC framework base on [Express](http://expressjs.com/). It does not add too many magic, instead it provides a clean and well structured project bootstrap. ”
 
 
 
