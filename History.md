@@ -1,3 +1,9 @@
+## 0.3.4 / 2012-02-16
+
+  - [bug fix] Wrong generator templates dir
+
+
+
 ## 0.3.3 / 2012-02-16
 
   - [update packages] thunder->0.0.2
@@ -35,7 +41,7 @@
 
 ## 0.1.3 / 2012-02-13
 
-  - [bug fix] typo in assets.yml config file
+  - [bug fix] Typo in assets.yml config file
   - [refactoring] Server start flow control
   - [refactoring] Check libs length before calling
   - [refactoring] Rename read to callback, move callback out of the if statement
