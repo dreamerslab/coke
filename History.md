@@ -1,3 +1,9 @@
+## 0.3.3 / 2012-02-15
+
+  - [update packages] thunder->0.0.2
+
+
+
 ## 0.3.2 / 2012-02-15
 
   - [refactoring] Remove useless generator templates

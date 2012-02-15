@@ -16,7 +16,7 @@
     "node.packer"     : "0.0.6",
     "railway-routes"  : "0.0.4",
     "rmdirr"          : "0.0.1",
-    "thunder"         : "0.0.1"
+    "thunder"         : "0.0.2"
   },
   "devDependencies" : {
     "vows" : "0.6.0"
