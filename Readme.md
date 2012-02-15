@@ -57,6 +57,7 @@
   - Middleware and 3rd party lib support, which means all the express and connect middleware can be used directly
   - Comprehensive logger for debugging
   - Powerful generators for project prototyping
+  - Cluster support
   - Socket.io compatible
 
 
