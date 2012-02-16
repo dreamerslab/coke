@@ -1,3 +1,9 @@
+## 0.3.5 / 2012-02-16
+
+  - [refactoring] Use __defineGetter__ to prevent global vars to be overwritten
+
+
+
 ## 0.3.4 / 2012-02-16
 
   - [bug fix] Wrong generator templates dir
