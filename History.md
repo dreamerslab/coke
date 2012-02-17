@@ -1,3 +1,9 @@
+## 0.3.6 / 2012-02-17
+
+  - [update packages] Add `should` and `zombie` as devDependencies
+
+
+
 ## 0.3.5 / 2012-02-16
 
   - [refactoring] Use __defineGetter__ to prevent global vars to be overwritten
