@@ -1,3 +1,10 @@
+## 0.3.7 / 2012-03-01
+
+  - [refactoring] Use __defineGetter__ directly instead of in a loop
+  - [refactoring] Change term params to body in logger
+
+
+
 ## 0.3.6 / 2012-02-17
 
   - [update packages] Add `should` and `zombie` as devDependencies
