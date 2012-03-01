@@ -1,3 +1,9 @@
+## 0.3.8 / 2012-03-01
+
+  - [update packages] mongoose->2.5.9, js-yaml->0.3.7
+
+
+
 ## 0.3.7 / 2012-03-01
 
   - [refactoring] Use __defineGetter__ directly instead of in a loop
