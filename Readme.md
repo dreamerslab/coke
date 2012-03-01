@@ -67,7 +67,7 @@
   - Add docs
   - Add tests
   - Add examples
-
+  - Use iform + mongoskin instead of mongoose
 
 
 ## License
