@@ -1,3 +1,9 @@
+## 0.4.0 / 2012-03-07
+
+  - [new feature] add `Array` and `ObjectId` as model generator format type
+
+
+
 ## 0.3.9 / 2012-03-07
 
   - [bug fix] mongodb does not take `.` in database name
