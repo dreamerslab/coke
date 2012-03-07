@@ -1,3 +1,10 @@
+## 0.5.0 / 2012-03-07
+
+  - [new feature] add `sitemap` generator as project dependency
+  - [refactoring] model, view, routes generators regex should pretify syntax
+
+
+
 ## 0.4.2 / 2012-03-07
 
   - [bug fix] model, view, routes generators regex should catch all possiable syntax
