@@ -1,3 +1,9 @@
+## 0.4.2 / 2012-03-07
+
+  - [bug fix] model, view, routes generators regex should catch all possiable syntax
+
+
+
 ## 0.4.1 / 2012-03-07
 
   - [refactoring] make generator syntax more compatible
