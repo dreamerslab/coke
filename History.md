@@ -1,3 +1,11 @@
+## 0.3.9 / 2012-03-07
+
+  - [bug fix] mongodb does not take `.` in database name
+  - [bug fix] replace `COKE` with custom app name in readme
+  - [docs] add index
+
+
+
 ## 0.3.8 / 2012-03-01
 
   - [update packages] mongoose->2.5.9, js-yaml->0.3.7
