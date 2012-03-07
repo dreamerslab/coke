@@ -1,3 +1,9 @@
+## 0.4.1 / 2012-03-07
+
+  - [refactoring] make generator syntax more compatible
+
+
+
 ## 0.4.0 / 2012-03-07
 
   - [new feature] add `Array` and `ObjectId` as model generator format type
