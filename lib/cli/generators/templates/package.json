@@ -4,7 +4,7 @@
   "private"     : true,
   "dependencies": {
     "cli-color"       : "0.1.6",
-    "coke"            : "0.4.2",
+    "coke"            : "0.5.0",
     "connect-mongodb" : "1.1.3",
     "dateformat"      : "",
     "express"         : "2.5.8",
@@ -16,6 +16,7 @@
     "node.packer"     : "0.0.6",
     "railway-routes"  : "0.0.4",
     "rmdirr"          : "0.0.1",
+    "sitemap"         : "0.6.0",
     "thunder"         : "0.0.2"
   },
   "devDependencies": {
