@@ -1,3 +1,10 @@
+## 0.6.0 / 2012-03-09
+
+  - [new feature] mongoose command line console
+  - [bug fix] move dependencies into exports block for cli routes
+
+
+
 ## 0.5.0 / 2012-03-07
 
   - [new feature] add `sitemap` generator as project dependency
