@@ -41,6 +41,13 @@ switch( command ){
 
     break;
 
+  case 'c':
+  case 'console':
+    cli.console();
+    exit = false;
+
+    break;
+
   case 'h':
   case 'help':
   case '-h':
