@@ -1,40 +1,48 @@
+## 0.7.0 / 2012-03-12
+
+  - [new feature] Controller before and after filters
+  - [new feature] Add `resig class` as project dependency
+  - [bug fix] Wrong format of global error handler logger syntax
+
+
+
 ## 0.6.0 / 2012-03-09
 
-  - [new feature] mongoose command line console
-  - [bug fix] move dependencies into exports block for cli routes
+  - [new feature] Mongoose command line console
+  - [bug fix] Move dependencies into exports block for cli routes
 
 
 
 ## 0.5.0 / 2012-03-07
 
-  - [new feature] add `sitemap` generator as project dependency
-  - [refactoring] model, view, routes generators regex should pretify syntax
+  - [new feature] Add `sitemap` generator as project dependency
+  - [refactoring] Model, view, routes generators regex should pretify syntax
 
 
 
 ## 0.4.2 / 2012-03-07
 
-  - [bug fix] model, view, routes generators regex should catch all possiable syntax
+  - [bug fix] Model, view, routes generators regex should catch all possiable syntax
 
 
 
 ## 0.4.1 / 2012-03-07
 
-  - [refactoring] make generator syntax more compatible
+  - [refactoring] Make generator syntax more compatible
 
 
 
 ## 0.4.0 / 2012-03-07
 
-  - [new feature] add `Array` and `ObjectId` as model generator format type
+  - [new feature] Add `Array` and `ObjectId` as model generator format type
 
 
 
 ## 0.3.9 / 2012-03-07
 
-  - [bug fix] mongodb does not take `.` in database name
-  - [bug fix] replace `COKE` with custom app name in readme
-  - [docs] add index
+  - [bug fix] Mongodb does not take `.` in database name
+  - [bug fix] Replace `COKE` with custom app name in readme
+  - [docs] Add index
 
 
 
