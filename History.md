@@ -1,3 +1,9 @@
+## 0.7.1 / 2012-03-12
+
+  - [bug fix] Use new syntax for controler generator
+
+
+
 ## 0.7.0 / 2012-03-12
 
   - [new feature] Controller before and after filters
