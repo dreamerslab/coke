@@ -74,12 +74,12 @@ function coke( base_dir ){
 
   join().
 
-  //load routes
+  //load controller_brige
   series( function ( results, next ){
     var app = results[ 0 ][ 0 ];
 
-    LOG.sys( 'loading core module: routes' );
-    require( CORE_DIR + 'route' )( app, next );
+    LOG.sys( 'loading core module: controller_bridge' );
+    require( CORE_DIR + 'controller_bridge' )( app, next );
   }).
 
   // start server
