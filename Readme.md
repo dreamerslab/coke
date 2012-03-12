@@ -56,12 +56,12 @@
 
 ## Quick start
 
-    coke new blog && cd blog
-    npm install -l
-    coke g scaffold posts title content is_public:bool
-    coke s
+    $ coke new blog && cd blog
+    $ npm install -l
+    $ coke g scaffold posts title content is_public:bool
     # make sure your mongodb is on
-    open http://127.0.0.1:4000
+    $ coke s
+    $ open http://127.0.0.1:4000
 
 
 
