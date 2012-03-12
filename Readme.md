@@ -60,6 +60,7 @@
     npm install -l
     coke g scaffold posts title content is_public:bool
     coke s
+    # make sure your mongodb is on
     open http://127.0.0.1:4000
 
 
