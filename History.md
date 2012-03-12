@@ -1,3 +1,9 @@
+## 0.7.2 / 2012-03-12
+
+  - [refactoring] Move fliter and stack class to controller_bridge dir
+
+
+
 ## 0.7.1 / 2012-03-12
 
   - [bug fix] Use new syntax for controler generator
