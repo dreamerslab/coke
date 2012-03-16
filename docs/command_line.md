@@ -113,7 +113,7 @@
     create  awesomeapp/README.md
     create  awesomeapp/server.js
 
-  - To generate a scaffold
+  - To generate a scaffolding resource, which includes the model, controller and views
 
 <!---->
 
@@ -185,14 +185,14 @@
 
 - Console mode
 
-  To directly interactly with your project's models, you can enter the console mode by
+  To directly interact with your project's models, you can enter the console mode by
 
 <!---->
 
     $ coke c
     coke>
 
-  Note that you have to start MongoDB first, and you can press `Ctrl + C` 2 times to leave console.
+  Note that you have to start MongoDB first to enter the console, and you can press `Ctrl + C` two times to leave console.
 
 - Start server
 
@@ -320,4 +320,5 @@
     [ SYSTEM ] Thu Mar 15 2012 17:12:37 GMT+0000 (UTC)
     - pid: 3013
     - msg: loading core module: started
+
 - Writing your own generators
