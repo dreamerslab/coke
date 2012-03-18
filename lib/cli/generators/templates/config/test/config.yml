@@ -9,13 +9,13 @@ db:
   db: APPNAME-test
   host: localhost
   # optional, default: 27017
-  port : 27017
+  port: 27017
   # optional
-  username :
+  username:
   # optional
-  password :
+  password:
   # optional, default: sessions
-  collection : sessions
+  collection: sessions
 
 logs:
   - sys
