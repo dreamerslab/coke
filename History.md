@@ -1,6 +1,8 @@
-## 0.7.2 / 2012-03-12
+## 0.7.2 / 2012-03-30
 
   - [refactoring] Move fliter and stack class to controller_bridge dir
+  - [update packages] connect->1.8.5, inflection->1.1.1, railway-routes->0.0.5, mongoose->2.5.13
+  - [bug fix] controller context was set to global
 
 
 
