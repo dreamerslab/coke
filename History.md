@@ -1,3 +1,9 @@
+## 0.7.5 / 2012-03-31
+
+  - [bug fix] Fix typo in model.js config.localhost -> config.host
+
+
+
 ## 0.7.4 / 2012-03-31
 
   - [update packages] node.flow->1.1.1
