@@ -1,3 +1,10 @@
+## 0.7.4 / 2012-03-31
+
+  - [update packages] node.flow->1.1.1
+  - [bug fix] Replace appname on doc/README.md
+
+
+
 ## 0.7.3 / 2012-03-30
 
   - [bug fix] Throw error with illegal characters in database name
