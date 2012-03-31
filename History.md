@@ -1,3 +1,10 @@
+## 0.7.7 / 2012-03-31
+
+  - [bug fix] `fs` package missing in model.js
+  - [bug fix] Property `regex` missing in model.js
+
+
+
 ## 0.7.6 / 2012-03-31
 
   - [refactoring] Move model regex to utils
