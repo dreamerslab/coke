@@ -1,3 +1,10 @@
+## 0.7.6 / 2012-03-31
+
+  - [refactoring] Move model regex to utils
+  - [refactoring] Set configs as global object
+
+
+
 ## 0.7.5 / 2012-03-31
 
   - [bug fix] Fix typo in model.js config.localhost -> config.host
