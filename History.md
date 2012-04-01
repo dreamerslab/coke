@@ -1,3 +1,12 @@
+## 0.7.8 / 2012-03-31
+
+  - [bug fix] Throw an error when `mongoose` is unable to connect to the database
+  - [refactoring] Remove `utils.global_err`. We simply do not output useless info on error log
+  - [bug fix] Add auth for connect-mongo session
+  - [refactoring] Reorder middlewares
+
+
+
 ## 0.7.7 / 2012-03-31
 
   - [bug fix] `fs` package missing in model.js
