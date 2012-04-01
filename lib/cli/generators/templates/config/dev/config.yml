@@ -7,15 +7,19 @@ server:
 
 db:
   db: APPNAME-dev
-  host: localhost
+  # optional, default: localhost
+  host:
   # optional, default: 27017
-  port: 27017
+  port:
   # optional
   username:
   # optional
   password:
+
+session:
   # optional, default: sessions
-  collection: sessions
+  collection:
+  secret: 2e798a6d81f7235c10a93313dc222b5763a62ba6
 
 logs:
   - sys
@@ -28,3 +32,5 @@ libs: []
 
 # libs that must run after server started
 started: []
+
+
