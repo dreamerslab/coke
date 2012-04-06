@@ -1,10 +1,12 @@
-## Assets
+# Assets
 
-### Naming
+COKE uses a YAML file to manage all the assets. We can setup groups of `css` and `js`, they will be listed one by one in development mode for easlier debugging, and will be compressed and minified in groups with versions hash in production mode.
 
-First, you need to put your CSS files to the folder `path-to-project/public/css` and put js files to the folder `path-to-project/public/js`.
 
-Then open `path-to-project/config/assets.yml` this yaml file, and the default configuration should look like this:
+
+## Configurations
+
+All the assets configurations are in the `config/assets.yml` file. It should look something like the following by default.
 
     ---
     path:
@@ -40,17 +42,22 @@ Then open `path-to-project/config/assets.yml` this yaml file, and the default co
         site:
           - common/ga
 
-The `css: css` in "path" block means Coke will find your CSS files in `path-to-project/public/css`, if you changed it to:
 
-    ---
+
+## Naming
+
+The default `stylesheet` and `javascript` directorys are called `css` and `js`. You can change them to whatever we like such as `stylesheets` and `javascripts`.
+
     path:
       output: assets
-      css: style
-      js: js
+      css: stylesheets
+      js: javascripts
 
-Then Coke will find your css files in `path-to-project/public/style`.
 
-Let's take a look at next paragraph:
+
+## Assets groups
+
+Let's take a look at the next block
 
     css:
       # css group name
@@ -67,11 +74,23 @@ Let's take a look at next paragraph:
         site:
           - scaffold
 
-This means "There are two groups, one is called `common`, and the other one is called `scaffold`. When you use `common` group, Coke will pull `reset.css`, `util.css`, `base.css`, `header.css`, `nav.css`, `flash.css` and `footer.css` in the folder `path-to-project/public/css/common` to the web page for you. When you use `scaffold` group, Coke will pull `scaffold.css` in the folder `path-to-project/public/css` for you."
+In this case there are two groups `common` and `scaffold`. With the `common` group, COKE generates
 
-Coke will pull the `common` group for you by default.
+    /css/common/reset.css
+    /css/common/util.css
+    /css/common/base.css
+    /css/common/header.css
+    /css/common/nav.css
+    /css/common/flash.css
+    /css/common/footer.cs
 
-If you want to add a new group called `contact`, and want to pull `contact.css` in the folder `path-to-project/public/css/` when you use `contact` group, you can set the configuration like this:
+links to map all the files in the directory `public/css/common`. With `scaffold` group, COKE generates `/css/scaffold.css` link to map `public/css/scaffold.css`.
+
+
+
+### Adding new groups
+
+Say we want to add a new group called `contact` with 2 css files `base` and `mail`, the configurations will be something like this
 
     css:
       # css group name
@@ -86,12 +105,24 @@ If you want to add a new group called `contact`, and want to pull `contact.css` 
           - common/footer
       contact:
         site:
-          - contact
+          - contact/base
+          - contact/mail
       scaffold:
         site:
           - scaffold
 
-If you want to use files on other sites, you can added the url of the fils in `cdn` sub group like this:
+
+
+
+### Default group
+
+COKE has a default group `common` for both `css` and `js`. It will not generate anyting if we leave them blank.
+
+
+
+### CDN
+
+Most of the time we do not want to host jQuery or other popular assets files ourself. We can list them in the cdn block. They will not be merged and minified on production.
 
     js:
       # js group name
@@ -101,13 +132,18 @@ If you want to use files on other sites, you can added the url of the fils in `c
         site:
           - common/ga
 
-The `site` sub group will pull files from your site, and `cdn` sub gruop will pull files from other sites.
 
-### Picking
 
-After setting the configuration in `assets.yml`, you can pull any group to any view you want, just add these two line in your view file:
+## Using asset groups in the view
+
+After setting up the configuration in `assets.yml`, we can call the following helpers to use them in the view
 
     <? it.styles.push( 'contact' ); ?>
     <? it.scripts.push( 'test' ); ?>
 
-The CSS `contact` group and js `test` group will be pulled into your web page.
+
+
+## Production
+
+As we mentioned earlier the assets will be compressed and minified in groups with versions hash in production mode. The output directory is `public/assets/` by default. We can change it in the config file as we change the `css` and `js` directory name. Also we can set the `asset_host` in the config and upload the assets to another domain such as our subdomain or aws s3 for faster assets loading.
+
