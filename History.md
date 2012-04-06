@@ -1,3 +1,9 @@
+## 0.7.10 / 2012-04-06
+
+  - [bug fix] Miss requiring `fs` module in logger
+
+
+
 ## 0.7.9 / 2012-04-02
 
   - [bug fix] Always true on `before` & `after` filter with no `only` | `except` pass in
