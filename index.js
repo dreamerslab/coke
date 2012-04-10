@@ -101,5 +101,7 @@ coke.version = JSON.parse( fs.readFileSync( __dirname + '/package.json', 'utf8' 
 coke.utils   = require( './lib/utils' );
 
 
-
+/**
+ * Exports module.
+ */
 module.exports = coke;
