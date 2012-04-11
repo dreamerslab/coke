@@ -1,10 +1,6 @@
-## Command line tools
+# Command line tools
 
-- Command list
-
-  Currently COKE support several handy command line tools to facilitate your developing processes. Simply put `coke` or `coke help` without any other arguments, you will get COKE's command list:
-
-<!---->
+## Command list
 
     $ coke
     Usage: coke [command] [argument(s)]
@@ -21,11 +17,11 @@
     Available generators:
       model controller scaffold
 
-- Generators
 
-  - To generate a new project
 
-<!---->
+## Generators
+
+To generate a new project
 
     $ coke new awesomeapp
     create  awesomeapp/
@@ -113,9 +109,7 @@
     create  awesomeapp/README.md
     create  awesomeapp/server.js
 
-  - To generate a scaffolding resource, which includes the model, controller and views
-
-<!---->
+To generate a scaffolding resource, which includes the model, controller and views
 
     # the syntax is `coke g model [model_name] [porp:format] [another_porp:format]`
     # ex.
@@ -137,9 +131,7 @@
     create  app/controllers/posts.js
     update  config/routes.js
 
-  - To generate a model
-
-<!---->
+To generate a model
 
     # the syntax is `coke g model [model_name] [porp:format] [another_porp:format]`
     # ex.
@@ -149,9 +141,7 @@
     update  db/schema.js
     create  app/models/Comment.js
 
-  - To generate a controller
-
-<!---->
+To generate a controller
 
     # the syntax is `coke g controller [controller_name] [action_name] [another_action_name]`
     # ex.
@@ -165,11 +155,11 @@
     create  app/controllers/notifications.js
     update  config/routes.js
 
-- Routes
 
-  You can list all the routes of your current project by
 
-<!---->
+## Routes
+
+You can list all the routes of your current project by
 
     $ coke r
       latest_notifications GET    /notifications/latest    notifications#latest
@@ -183,22 +173,22 @@
                       post GET    /posts/:id.:format?      posts#show
                       root GET    /                        welcome#index
 
-- Console mode
 
-  To directly interact with your project's models, you can enter the console mode by
 
-<!---->
+## Console mode
+
+To directly interact with your project's models, you can enter the console mode by
 
     $ coke c
     coke>
 
-  Note that you have to start MongoDB first to enter the console, and you can press `Ctrl + C` two times to leave console.
+Note that you have to start MongoDB first to enter the console, and you can press `Ctrl + C` two times to leave console.
 
-- Start server
 
-  To start the server to test your project on a default port of 4000.
 
-<!---->
+## Start server
+
+To start the server to test your project on a default port of 4000.
 
     $ coke s
     [ SYSTEM ] Fri Mar 16 2012 01:12:36 GMT+0800 (CST)
@@ -321,4 +311,6 @@
     - pid: 3013
     - msg: loading core module: started
 
-- Writing your own generators
+## Writing your own generators
+
+Todos...
