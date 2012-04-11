@@ -1,3 +1,16 @@
+## 0.7.12 / 2012-04-11
+
+  - [bug fix] Auto add updated_at for models
+
+
+
+## 0.7.11 / 2012-04-11
+
+  - [refactoring] Code generator regex miss match
+  - [refactoring] More detail on help cli tool
+
+
+
 ## 0.7.10 / 2012-04-06
 
   - [bug fix] Miss requiring `fs` module in logger
@@ -13,8 +26,8 @@
 ## 0.7.8 / 2012-03-31
 
   - [bug fix] Throw an error when `mongoose` is unable to connect to the database
-  - [refactoring] Remove `utils.global_err`. We simply do not output useless info on error log
   - [bug fix] Add auth for connect-mongo session
+  - [refactoring] Remove `utils.global_err`. We simply do not output useless info on error log
   - [refactoring] Reorder middlewares
 
 
