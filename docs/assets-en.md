@@ -82,7 +82,7 @@ In this case there are two groups `common` and `scaffold`. With the `common` gro
     /css/common/header.css
     /css/common/nav.css
     /css/common/flash.css
-    /css/common/footer.cs
+    /css/common/footer.css
 
 links to map all the files in the directory `public/css/common`. With `scaffold` group, COKE generates `/css/scaffold.css` link to map `public/css/scaffold.css`.
 
