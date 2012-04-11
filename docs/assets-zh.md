@@ -1,10 +1,12 @@
-## Assets
+# Assets
 
-### 命名
+COKE 透過 YAML 檔來管理 assets，可以在設定檔裡設定 `css` 跟 `js` 的群組，然後 COKE 會按照設定去取用指定的群組跟檔案。為了方便 debug，所以在 `develoment` 模式 COKE 會各別列出指定的檔案，但在 `production` 模式，COKE 會幫每個有使用到的群組都各別壓縮成一個有版本號的檔案，例如要使用 css 的 `common` 群組跟 `contact` 群組，在 `production` 模式的時候 COKE 會把 `common` 群組裡所有的檔案壓縮成一個 css 檔、`contact` 群組裡所有的檔案壓成另一個 css 檔。
 
-首先，請將您的 CSS 檔放到 `path-to-project/public/css` 資料夾，js 檔放到 `path-to-project/public/js` 資料夾。
 
-然後在您的文字編輯器打開這個檔案 `path-to-project/config/assets.yml` ，會看到以下預設的檔案內容：
+
+## Configurations
+
+Assets 設定檔的位置在 `config/assets.yml` ，以下是預設的設定。
 
     ---
     path:
@@ -40,17 +42,22 @@
         site:
           - common/ga
 
-在 `path` 區塊裡的 `css: css` 指的是， Coke 會去 `path-to-project/public/css` 找您的 CSS 檔，但如果改成：
 
-    ---
+
+## 命名
+
+預設的 `stylesheets` 、 `javascripts` 資料夾路徑是 `css` 、 `js` ，你可以把 `css` 跟 `js` 改成你想要的名字，例如 `stylesheets` 跟 `javascripts`，修改後就會變成：
+
     path:
       output: assets
-      css: style
-      js: js
+      css: stylesheets
+      js: javascripts
 
-Coke 就會去 `path-to-project/public/style` 資料夾找您的 CSS 檔。
 
-接下來請看下面這段：
+
+## Assets 群組
+
+接下來請看下一個區塊：
 
     css:
       # css group name
@@ -67,11 +74,23 @@ Coke 就會去 `path-to-project/public/style` 資料夾找您的 CSS 檔。
         site:
           - scaffold
 
-上面這段的意思是「有兩個 CSS 群組，一個叫做 `common` ，一個叫做 `scaffold`，呼叫 `common` 這個群組的時候，Coke 會自動去拿 `path-to-project/public/css/common` 資料夾裡面的 `reset.css`、`util.css`、`base.css`、`header.css`、`nav.css`、`flash.css`、`footer.css` 這些 CSS 檔，如果呼叫 `scaffold` 這個群組的時候，Coke 則會去找 `path-to-project/public/css/` 資料夾裡面的 `scaffold.css`。」。
+這個區塊有兩個群組，一個叫 `common`，另一個叫 `scaffold`，COKE 呼叫 `common` 群組的時候，會把 `public/css/common` 資料夾裡的檔案都放進 view 裡並產生連結：
 
-需要注意的是，`common` 是預設會載入的群組，不用另外寫指令就會幫您載入。
+    /css/common/reset.css
+    /css/common/util.css
+    /css/common/base.css
+    /css/common/header.css
+    /css/common/nav.css
+    /css/common/flash.css
+    /css/common/footer.css
 
-如果新增一個叫做 `contact` 的群組，呼叫 `contact` 群組的時候想要拿 `path-to-project/public/css/` 資料夾裡的 `contact.css` 這個檔案的話，可以這樣寫：
+在呼叫 `scaffold` 群組的時候， COKE 會幫 `public/css/scaffold` 資料夾裡的 `scaffold.css` 在 view 裡產生連結。
+
+
+
+### 新增群組
+
+如果要新增一個群組叫做 `contact`，而這個群組有 `base` 、 `mail` 兩個 css 檔，以下是新增後的結果：
 
     css:
       # css group name
@@ -86,12 +105,23 @@ Coke 就會去 `path-to-project/public/style` 資料夾找您的 CSS 檔。
           - common/footer
       contact:
         site:
-          - contact
+          - contact/base
+          - contact/mail
       scaffold:
         site:
           - scaffold
 
-如果想要把別的網站上的檔案拿來用，則可以把檔案路徑放到 `cdn` 這個子群組底下：
+
+
+### 預設會載入的群組
+
+COKE 預設會載入 `css` 跟 `js` 的 `common` 群組，但如果 `common` 群組裡不填任何東西的話，COKE 就不會產生 `common` 群組的連結。
+
+
+
+### CDN
+
+通常在做網站的時候，不會把 jQuery 或是其他很知名的檔案放到自己的網站上，這時候就可以把這些檔案的連結放到 cdn 這個區塊，但 COKE 不會壓縮 cdn 區塊的檔案。
 
     js:
       # js group name
@@ -101,13 +131,15 @@ Coke 就會去 `path-to-project/public/style` 資料夾找您的 CSS 檔。
         site:
           - common/ga
 
-`jquery.min.js` 是放在別的網站上的檔案，但可以透過 `cdn` 這個子群組設定來取用，而 `site` 子群組是拿目前網站上的檔案來用。
+## 將 assets 群組放進 view
 
-### 取用
-
-在 `assets.yml` 設定好群組之後，取用的方法很簡單，只要在任何一個 view 加上：
+完成了以上的設定之後，就可以在 view 裡透過以下的 helper 把群組放進 view 裡：
 
     <? it.styles.push( 'contact' ); ?>
     <? it.scripts.push( 'test' ); ?>
 
-就可以把 CSS `contact` 群組跟 js `test` 群組的檔案拉進來了。
+
+
+## Production 模式
+
+在 `production` 模式，COKE 預設輸出 assets 的資料夾是 `public/assets/` ，如果要更改的話，把 `path` 區塊的 `output` 改成想要輸出的資料夾名稱即可。如果為了讓使用者可以更快的下載檔案，要把 assets 放在 aws s3 或是其他的地方，可以在 `asset_host` 設定。
