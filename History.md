@@ -1,3 +1,9 @@
+## 0.7.12 / 2012-04-11
+
+  - [bug fix] Auto add updated_at for models
+
+
+
 ## 0.7.11 / 2012-04-11
 
   - [refactoring] Code generator regex miss match
