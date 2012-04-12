@@ -1,3 +1,9 @@
+## 0.7.14 /
+
+  - [bug fix] Wrong format in generator templates
+
+
+
 ## 0.7.13 / 2012-04-12
 
   - [bug fix] Wrong updated_at timestamp at create
