@@ -1,3 +1,10 @@
+## 0.7.13 / 2012-04-12
+
+  - [bug fix] Wrong updated_at timestamp at create
+  - [refactoring] Remove request and response. use logger instead
+
+
+
 ## 0.7.12 / 2012-04-11
 
   - [bug fix] Auto add updated_at for models
