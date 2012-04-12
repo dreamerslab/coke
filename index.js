@@ -63,15 +63,6 @@ function coke( base_dir ){
     require( CORE_DIR + 'assets' )( app, ready );
   }).
 
-  // overwrite res.send
-  parallel( function ( results, ready ){
-    var app = results[ 0 ];
-
-    LOG.sys( 'Overwriting express res.send' );
-    require( CORE_DIR + 'response' );
-    ready();
-  }).
-
   join().
 
   //load controller_brige
