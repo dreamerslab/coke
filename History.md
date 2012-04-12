@@ -1,3 +1,9 @@
+## 0.7.15 / 2012-04-13
+
+  - [bug fix] Cli console empty db name
+
+
+
 ## 0.7.14 / 2012-04-12
 
   - [bug fix] Wrong format in generator templates
