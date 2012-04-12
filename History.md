@@ -1,6 +1,8 @@
-## 0.7.14 /
+## 0.7.14 / 2012-04-12
 
   - [bug fix] Wrong format in generator templates
+  - [refactoring] Reorder middlewares to make logger works right
+  - [update packages] express->2.5.9, railway-routes->0.0.6
 
 
 
