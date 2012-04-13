@@ -1,3 +1,9 @@
+## 0.7.16 / 2012-04-13
+
+  - [refactoring] Set global view dir variable
+
+
+
 ## 0.7.15 / 2012-04-13
 
   - [bug fix] Cli console empty db name
