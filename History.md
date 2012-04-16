@@ -1,3 +1,9 @@
+## 0.7.17 / 2012-04-16
+
+  - [refactoring] Log not only 500 errors
+
+
+
 ## 0.7.16 / 2012-04-13
 
   - [refactoring] Set global view dir variable
