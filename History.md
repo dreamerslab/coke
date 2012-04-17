@@ -1,5 +1,11 @@
 ## 0.7.18 / 2012-04-17
 
+  - [bug fix] `undefined` res in debug logger
+
+
+
+## 0.7.18 / 2012-04-17
+
   - [refactoring] Log only 4xx & 50x errors
   - [update packages] mongoose->2.5.14
 
