@@ -1,3 +1,9 @@
+## 0.7.21 / 2012-04-18
+
+  - [bug fix] Log only 4xx & 50x errors was overwritten in v0.7.19
+
+
+
 ## 0.7.20 / 2012-04-17
 
   - [refactoring] Add request start time to `req`
