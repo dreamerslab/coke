@@ -1,3 +1,10 @@
+## 0.7.18 / 2012-04-17
+
+  - [refactoring] Log only 4xx & 50x errors
+  - [update packages] mongoose->2.5.14
+
+
+
 ## 0.7.17 / 2012-04-16
 
   - [refactoring] Log not only 500 errors
