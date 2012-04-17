@@ -1,4 +1,10 @@
-## 0.7.18 / 2012-04-17
+## 0.7.20 / 2012-04-17
+
+  - [refactoring] Add request start time to `req`
+
+
+
+## 0.7.19 / 2012-04-17
 
   - [bug fix] `undefined` res in debug logger
 
