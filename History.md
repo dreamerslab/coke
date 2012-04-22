@@ -1,3 +1,10 @@
+## 0.7.22 / 2012-04-22
+
+  - [refactoring] Make LOG.debug works in none-request method
+  - [update packages] mongoose->2.6.0, should->0.6.1, zombie->0.12.15
+
+
+
 ## 0.7.21 / 2012-04-18
 
   - [bug fix] Log only 4xx & 50x errors was overwritten in v0.7.19
