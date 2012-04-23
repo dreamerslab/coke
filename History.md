@@ -1,3 +1,10 @@
+## 0.7.23 / 2012-04-23
+
+  - [update packages] connect->1.8.7
+  - [refactoring] Use `moment` instead of `dateformat`
+
+
+
 ## 0.7.22 / 2012-04-22
 
   - [refactoring] Make LOG.debug works in none-request method
