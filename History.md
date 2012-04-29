@@ -1,3 +1,9 @@
+## 0.8.0 / 2012-04-30
+
+  - [refactoring] Rename UTILS.is to UTILS.typeof and returns lowercased string instead
+
+
+
 ## 0.7.23 / 2012-04-23
 
   - [update packages] connect->1.8.7
