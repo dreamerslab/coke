@@ -1,5 +1,12 @@
 ## 0.8.0 / 2012-04-30
 
+  - [bug fix] typo
+  - [update packages] mongoose->2.6.1
+
+
+
+## 0.8.0 / 2012-04-30
+
   - [refactoring] Rename UTILS.is to UTILS.typeof and returns lowercased string instead
 
 
