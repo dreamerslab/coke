@@ -58,7 +58,7 @@ COKE 使用的 template parser 是 [thunder](https://github.com/dreamerslab/thun
 
 
 
-## Action view
+## Action View
 
 每個 controller 的每個 action 都會對應到一個 view 。例如 `contact` controller 裡有個 action 叫 `index`， `index` 對應到的 view 是 `contact` 資料夾底下的 `index.html` ，在 controller 裡就可以這樣寫：
 
@@ -66,7 +66,7 @@ COKE 使用的 template parser 是 [thunder](https://github.com/dreamerslab/thun
 
 
 
-## Render options
+## Render Options
 
 在執行 `res.render()` 的時候也有很多設定可以調整，例如如果很少使用 layout system 來管理 view ，就可以在 `config/dev/express.js` 找到下面三行：
 
