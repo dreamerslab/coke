@@ -1,4 +1,10 @@
-## 0.8.0 / 2012-04-30
+## 0.8.2 / 2012-05-25
+
+  - [update packages] mongoose->2.6.5, mkdirp->0.3.2, moment->1.6.2, railway-routes->0.0.7, should->0.6.3, zombie->1.1.5
+
+
+
+## 0.8.1 / 2012-04-30
 
   - [bug fix] typo
   - [update packages] mongoose->2.6.1
