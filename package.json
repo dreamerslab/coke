@@ -1,7 +1,7 @@
 {
   "name"       : "coke",
-  "version"    : "0.8.2",
-  "description": "COKE is a lightweight node.js MVC framework that speeds up your web development.",
+  "version"    : "0.8.3",
+  "description": "A full stack MVC framework that speeds up your web development.",
   "bin"        : {
     "coke": "./bin/coke",
     "co"  : "./bin/coke"
@@ -24,7 +24,9 @@
     "type": "git",
     "url" : "https://github.com/dreamerslab/coke.git"
   },
-  "main"   : "index",
-  "engines": [ "node >= 0.6.0" ],
-  "license": "MIT"
+  "homepage": "http://coke-js.org/",
+  "bugs"    : "https://github.com/dreamerslab/coke/issues",
+  "main"    : "index",
+  "engines" : [ "node >= 0.6.0" ],
+  "licenses": "MIT"
 }
