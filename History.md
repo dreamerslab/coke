@@ -1,3 +1,11 @@
+## 0.8.4 / 2012-06-14
+
+- [refactoring] Move files to it's folder
+- [refactoring] Move match fn to filter class
+- [update packages] cli-color->0.1.7
+
+
+
 ## 0.8.3 / 2012-06-13
 
 - [refactoring] Modify `utils.typeof` to suit all cases
