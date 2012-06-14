@@ -3,8 +3,8 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "cli-color"       : "0.1.6",
-    "coke"            : "0.8.3",
+    "cli-color"       : "0.1.7",
+    "coke"            : "0.8.4",
     "connect-mongodb" : "1.1.4",
     "express"         : "2.5.9",
     "express-messages": "0.0.2",
