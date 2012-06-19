@@ -1,6 +1,6 @@
 {
   "name"       : "coke",
-  "version"    : "0.8.4",
+  "version"    : "0.8.5",
   "description": "A full stack MVC framework that speeds up your web development.",
   "bin"        : {
     "coke": "./bin/coke",
@@ -11,7 +11,7 @@
   "dependencies": {
     "cli-color"     : "0.1.7",
     "connect"       : "1.8.7",
-    "express"       : "2.5.9",
+    "express"       : "2.5.10",
     "inflection"    : "1.2.0",
     "js-yaml"       : "0.3.7",
     "node.flow"     : "1.1.1",
@@ -28,5 +28,8 @@
   "bugs"    : "https://github.com/dreamerslab/coke/issues",
   "main"    : "index",
   "engines" : [ "node >= 0.6.0" ],
-  "licenses": "MIT"
+  "licenses": [{
+    "type": "MIT",
+    "url" : "https://github.com/dreamerslab/coke/blob/master/Readme.md"
+  }]
 }
