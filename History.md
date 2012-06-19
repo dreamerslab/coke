@@ -1,3 +1,11 @@
+# Histroy
+
+## 0.8.5 / 2012-06-19
+
+- [update packages] express->2.5.10, mongoose->2.6.8
+
+
+
 ## 0.8.4 / 2012-06-14
 
 - [refactoring] Move files to it's folder
