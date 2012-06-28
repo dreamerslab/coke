@@ -1,0 +1,18 @@
+#header {
+  position: relative;
+}
+
+header {
+  padding: 230px 0 40px;
+}
+
+#logo {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: block;
+  text-indent: -9999px;
+  width: 200px;
+  height: 120px;
+  background: url('/img/sprite.png') no-repeat 0 -25px;
+}

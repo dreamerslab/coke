@@ -1,0 +1,46 @@
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.align-c {
+  text-align: center;
+}
+
+.align-r {
+  text-align: right;
+}
+
+.float-l {
+  float: left;
+  display: inline;
+}
+
+.float-r {
+  float: right;
+  display: inline;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,27 @@
+nav {
+  position: absolute;
+  top: 150px;
+  left: 0;
+}
+
+nav li {
+  float: left;
+  display: inline;
+  margin: 0 10px 0 0;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background: #666666;
+  color: white;
+}
+
+nav .selected {
+  background: black;
+  color: white;
+}

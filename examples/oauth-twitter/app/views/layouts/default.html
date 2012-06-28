@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><?= it.title ?></title>
+    <meta name="keywords" content="<?= it.keywords || '' ?>" />
+    <meta name="description" content="<?= it.description || '' ?>" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <?= it.css( it.styles ) ?>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <header>
+          <h1><?= it.title ?></h1>
+          <a id="logo" href="/" rel="home" title="Go to home page">
+            coke-oauth
+          </a>
+        </header>
+        <?= it.partial( 'common/_nav' ) ?>
+      </div>
+      <div id="content" role="main">
+        <?= it.messages() ?>
+        <?= it.body ?>
+      </div>
+      <footer>
+        Powered by <a id="logo-s" href="http://coke-js.org">COKE</a>
+      </footer>
+    </div>
+    <?= it.js( it.scripts ) ?>
+  </body>
+</html>

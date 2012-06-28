@@ -1,0 +1,23 @@
+footer {
+  color: #999999;
+  letter-spacing: 1px;
+  padding: 50px 0;
+  line-height: 25px;
+}
+
+#logo-s {
+  margin: 0 0 0 5px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  text-indent: -9999px;
+  width: 54px;
+  height: 25px;
+  background: url('/img/sprite.png') no-repeat 0 0;
+}
+
+#logo-s {
+  *display: inline;
+}
