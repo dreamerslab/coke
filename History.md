@@ -1,4 +1,9 @@
 # Histroy
+## 0.9.2 / 2012-06-28
+
+- [refactoring] Runtime compile assets if `assets_version.json` not found
+
+
 
 ## 0.9.1 / 2012-06-28
 
