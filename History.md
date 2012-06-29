@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.9.1 / 2012-06-28
+
+- [bug fix] Check existing assets really exist
+
+
+
 ## 0.9.0 / 2012-06-28
 
 - [new feature] Add `build` command to precompile assets

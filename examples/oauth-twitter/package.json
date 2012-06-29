@@ -4,7 +4,7 @@
   "private"     : true,
   "dependencies": {
     "cli-color"       : "0.1.7",
-    "coke"            : "0.8.6",
+    "coke"            : "0.9.1",
     "connect-mongodb" : "1.1.4",
     "express"         : "2.5.10",
     "express-messages": "0.0.2",
@@ -13,12 +13,10 @@
     "moment"          : "1.6.2",
     "mongoose"        : "2.7.1",
     "node.flow"       : "1.1.1",
-    "node.packer"     : "0.0.6",
     "passport"        : "0.1.10",
     "passport-twitter": "0.1.3",
     "railway-routes"  : "0.0.7",
     "resig-class"     : "0.1.0",
-    "rmdirr"          : "0.0.1",
     "sitemap"         : "0.6.0",
     "thunder"         : "0.0.2"
   },
