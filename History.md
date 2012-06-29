@@ -1,5 +1,16 @@
 # Histroy
 
+## 0.9.0 / 2012-06-28
+
+- [new feature] Add `build` command to precompile assets
+- [add packages] Add node.packer, rmdirr as dependences
+- [remove packages] Remove node.packer, rmdirr from generated project
+- [update packages] mongoose->2.7.1, inflection->1.2.1
+- [refactoring] Remove `connect` from dependences, add `uid` to utils
+- [refactoring] Check new generator for project name
+
+
+
 ## 0.8.5 / 2012-06-19
 
 - [update packages] express->2.5.10, mongoose->2.6.8
@@ -29,7 +40,7 @@
 
 ## 0.8.1 / 2012-04-30
 
-- [bug fix] typo
+- [bug fix] Typo
 - [update packages] mongoose->2.6.1
 
 
