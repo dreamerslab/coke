@@ -1,21 +1,22 @@
 {
   "name"       : "coke",
-  "version"    : "0.8.5",
+  "version"    : "0.9.0",
   "description": "A full stack MVC framework that speeds up your web development.",
   "bin"        : {
     "coke": "./bin/coke",
     "co"  : "./bin/coke"
   },
-  "keywords"    : [ "mvc", "express", "express mvc", "connect", "coke" ],
+  "keywords"    : [ "mvc", "express", "express mvc", "connect", "coke", "framework" ],
   "author"      : "dreamerslab <ben@dreamerslab.com>",
   "dependencies": {
     "cli-color"     : "0.1.7",
-    "connect"       : "1.8.7",
     "express"       : "2.5.10",
-    "inflection"    : "1.2.0",
+    "inflection"    : "1.2.1",
     "js-yaml"       : "0.3.7",
     "node.flow"     : "1.1.1",
-    "railway-routes": "0.0.7"
+    "node.packer"   : "0.0.6",
+    "railway-routes": "0.0.7",
+    "rmdirr"        : "0.0.1"
   },
   "devDependencies": {
     "should": "0.6.3"
@@ -30,6 +31,6 @@
   "engines" : [ "node >= 0.6.0" ],
   "licenses": [{
     "type": "MIT",
-    "url" : "https://github.com/dreamerslab/coke/blob/master/Readme.md"
+    "url" : "http://en.wikipedia.org/wiki/MIT_License"
   }]
 }
