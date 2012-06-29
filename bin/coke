@@ -48,6 +48,13 @@ switch( command ){
 
     break;
 
+  case 'b':
+  case 'build':
+    cli.build();
+    exit = false;
+
+    break;
+
   case 'h':
   case 'help':
   case '-h':
@@ -61,4 +68,3 @@ switch( command ){
 
 
 exit && process.exit( 0 );
-
