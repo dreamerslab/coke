@@ -4,7 +4,7 @@
   "private"     : true,
   "dependencies": {
     "cli-color"       : "0.1.7",
-    "coke"            : "0.9.2",
+    "coke"            : "0.9.3",
     "connect-mongodb" : "1.1.4",
     "express"         : "2.5.10",
     "express-messages": "0.0.2",
