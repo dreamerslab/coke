@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.9.4 / 2012-07-02
+
+- [update packages] express->2.5.11, js-yaml->1.0.0
+- [bug fix] utils `merge` missing args
+
+
+
 ## 0.9.3 / 2012-07-02
 
 - [new feature] Add `merge` fn to utils
