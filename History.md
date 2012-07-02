@@ -1,4 +1,11 @@
 # Histroy
+
+## 0.9.3 / 2012-07-02
+
+- [new feature] Add `merge` fn to utils
+
+
+
 ## 0.9.2 / 2012-06-28
 
 - [refactoring] Runtime compile assets if `assets_version.json` not found
