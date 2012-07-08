@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.9.5 / 2012-07-09
+
+- [update packages] rmdir->0.0.3, js-yaml->1.0.1, thunder->0.1.1
+- [remove packages] mkdirp
+
+
+
 ## 0.9.4 / 2012-07-02
 
 - [update packages] express->2.5.11, js-yaml->1.0.0
