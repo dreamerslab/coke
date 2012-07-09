@@ -1,6 +1,6 @@
 {
   "name"       : "coke",
-  "version"    : "0.9.6",
+  "version"    : "0.9.7",
   "description": "A full stack MVC framework that speeds up your web development.",
   "bin"        : {
     "coke": "./bin/coke",

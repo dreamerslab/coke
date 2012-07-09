@@ -1,4 +1,11 @@
 # Histroy
+
+## 0.9.7 / 2012-07-10
+
+- [bug fix] Trouble finding keys in production assets helper
+
+
+
 ## 0.9.6 / 2012-07-09
 
 - [bug fix] Typo
