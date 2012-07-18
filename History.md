@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.9.8 / 2012-07-19
+
+- [update packages] node.flow->1.1.2, mongoose->2.7.2, thunder->0.1.3, should->1.0.0
+
+
+
 ## 0.9.7 / 2012-07-10
 
 - [bug fix] Trouble finding keys in production assets helper
