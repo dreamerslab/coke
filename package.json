@@ -1,6 +1,6 @@
 {
   "name"       : "coke",
-  "version"    : "0.9.8",
+  "version"    : "0.9.9",
   "description": "A full stack MVC framework that speeds up your web development.",
   "bin"        : {
     "coke": "./bin/coke",
@@ -11,12 +11,12 @@
   "dependencies": {
     "cli-color"     : "0.1.7",
     "express"       : "2.5.11",
-    "inflection"    : "1.2.1",
+    "inflection"    : "1.2.2",
     "js-yaml"       : "1.0.1",
-    "node.flow"     : "1.1.2",
-    "node.packer"   : "0.0.6",
+    "node.flow"     : "1.1.3",
+    "node.packer"   : "1.0.0",
     "railway-routes": "0.0.7",
-    "rmdir"         : "0.0.3"
+    "rmdir"         : "1.0.0"
   },
   "devDependencies": {
     "should": "1.0.0"
@@ -28,7 +28,7 @@
   "homepage": "http://coke-js.org/",
   "bugs"    : "https://github.com/dreamerslab/coke/issues",
   "main"    : "index",
-  "engines" : [ "node >= 0.6.0" ],
+  "engines" : [ "node >= 0.8.0" ],
   "licenses": [{
     "type": "MIT",
     "url" : "http://en.wikipedia.org/wiki/MIT_License"
