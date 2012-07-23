@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.9.9 / 2012-07-23
+
+- [update packages] inflection->1.2.2, node.flow->1.1.3, node.packer->1.0.0, rmdir->1.0.0, thunder->0.1.4
+- [refactoring] Use `fs` instead of `path` for node v0.8.x
+
+
+
 ## 0.9.8 / 2012-07-19
 
 - [update packages] node.flow->1.1.2, mongoose->2.7.2, thunder->0.1.3, should->1.0.0
