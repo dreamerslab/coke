@@ -1,5 +1,15 @@
 # Histroy
 
+## 0.10.0 / 2012-08-19
+
+- [new feature] Add default server port and host to configs
+- [new feature] Take `PORT` argument from command line
+- [new feature] Auto upload to s3
+- [update packages] inflection->1.2.3, js-yaml->1.0.2, should->1.1.0, moment->1.7.0, mongoose->3.0.2, connect-mongodb->1.1.5, resig-class->node.class, +aws2js
+
+
+
+
 ## 0.9.9 / 2012-07-23
 
 - [update packages] inflection->1.2.2, node.flow->1.1.3, node.packer->1.0.0, rmdir->1.0.0, thunder->0.1.4
