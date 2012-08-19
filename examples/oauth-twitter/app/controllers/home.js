@@ -1,4 +1,4 @@
-var Class = require( 'resig-class' );
+var Class = require( 'node.class' );
 
 module.exports = Class.extend({
 
