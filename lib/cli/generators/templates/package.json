@@ -3,6 +3,7 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
+    "aws2js"          : "0.7.3",
     "cli-color"       : "0.1.7",
     "coke"            : "0.10.0",
     "connect-mongodb" : "1.1.5",
