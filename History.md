@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.10.1 / 2012-08-21
+
+- [bug fix] Assets helpers format
+
+
+
 ## 0.10.0 / 2012-08-19
 
 - [new feature] Add default server port and host to configs
