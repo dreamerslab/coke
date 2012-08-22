@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.10.2 / 2012-08-22
+
+- [bug fix] Render empty assets on production mode
+- [new feature] Add headers to assets while upload to s3
+
+
+
 ## 0.10.1 / 2012-08-21
 
 - [bug fix] Assets helpers format
