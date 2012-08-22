@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.10.3 / 2012-08-22
+
+- [bug fix] Ruten asset hosts
+
+
+
 ## 0.10.2 / 2012-08-22
 
 - [bug fix] Render empty assets on production mode
