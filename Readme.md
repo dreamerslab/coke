@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/dreamerslab/coke.png)](http://travis-ci.org/dreamerslab/coke)
 # COKE
 
 “ COKE is a node.js MVC framework base on [Express](http://expressjs.com/). It does not add too many magic, instead it provides a clean and well structured project bootstrap. ”
