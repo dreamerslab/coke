@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.10.4 / 2012-08-24
+
+- [bug fix] Array length check on assets building
+- [update packages] mongoose->3.0.3, zombie->1.4.1
+
+
+
 ## 0.10.3 / 2012-08-22
 
 - [bug fix] Ruten asset hosts
