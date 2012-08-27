@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.11.0 / 2012-08-27
+
+- [refactoring] Wrap mongoose to `Model`
+
+
+
 ## 0.10.4 / 2012-08-24
 
 - [bug fix] Array length check on assets building
