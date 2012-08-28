@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.11.2 / 2012-08-28
+
+- [refactoring] Exports `mongoose connection db` object to utils
+
+
+
 ## 0.11.1 / 2012-08-28
 
 - [bug fix] Assign model hooks
