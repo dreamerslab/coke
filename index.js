@@ -1,8 +1,6 @@
 var fs   = require( 'fs' );
 var Flow = require( 'node.flow' );
 
-
-
 function coke( base_dir ){
   var flow = new Flow();
 
@@ -28,12 +26,14 @@ function coke( base_dir ){
 
   // load model
   series( function ( next ){
+    var mongoose = require( 'mongoose' );
+
     LOG.sys( 'loading core module: model' );
-    require( CORE_DIR + 'model' )( next );
+    require( CORE_DIR + 'model' )( mongoose, next );
   }).
 
   // load express
-  series( function ( next ){
+  series( function ( model_names, next ){
     LOG.sys( 'loading core module: express' );
     require( CORE_DIR + 'express' )( next );
   }).
