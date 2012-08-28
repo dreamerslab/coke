@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.11.4 / 2012-08-28
+
+- [bug fix] Compile empty assets
+
+
+
 ## 0.11.3 / 2012-08-28
 
 - [bug fix] Make `coke console` work with new mongoose 3.x
