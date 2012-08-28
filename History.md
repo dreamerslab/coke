@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.11.1 / 2012-08-28
+
+- [bug fix] Assign model hooks
+
+
+
 ## 0.11.0 / 2012-08-27
 
 - [refactoring] Wrap mongoose to `Model`
