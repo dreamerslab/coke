@@ -29,8 +29,8 @@ To generate a new project
     create  awesomeapp/app/controllers/
     create  awesomeapp/app/helpers/
     create  awesomeapp/app/libs/
-    create  awesomeapp/app/locals/
-    create  awesomeapp/app/locals/en/
+    create  awesomeapp/app/locales/
+    create  awesomeapp/app/locales/en/
     create  awesomeapp/app/middlewares/
     create  awesomeapp/app/models/
     create  awesomeapp/app/views/
@@ -58,7 +58,7 @@ To generate a new project
     create  awesomeapp/app/controllers/welcome.js
     create  awesomeapp/app/helpers/application.js
     create  awesomeapp/app/libs/.gitkeep
-    create  awesomeapp/app/locals/en/welcome.js
+    create  awesomeapp/app/locales/en/welcome.js
     create  awesomeapp/app/middlewares/csrf.js
     create  awesomeapp/app/middlewares/err404.js
     create  awesomeapp/app/middlewares/err500.js
