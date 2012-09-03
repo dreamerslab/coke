@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.11.5 / 2012-09-03
+
+- [update packages] mongoose->3.1.0, aws2js->0.7.4
+- [bug fix] Typo `locals`->`locales`
+
+
+
 ## 0.11.4 / 2012-08-28
 
 - [bug fix] Compile empty assets
