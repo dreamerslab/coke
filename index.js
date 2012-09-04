@@ -29,7 +29,9 @@ function coke( base_dir ){
     var mongoose = require( 'mongoose' );
 
     LOG.sys( 'loading core module: model' );
-    require( CORE_DIR + 'model' )( mongoose, next );
+    require( CORE_DIR + 'model' )({
+      mongoose : mongoose
+    }, next );
   }).
 
   // load express
