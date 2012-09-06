@@ -1,5 +1,13 @@
 # Histroy
 
+## 0.12.0 / 2012-09-06
+
+- [new feature] Add database migration tool
+- [update packages] mongoose->3.1.1
+- [bug fix] Build assets does not replace changed file
+
+
+
 ## 0.11.5 / 2012-09-03
 
 - [update packages] mongoose->3.1.0, aws2js->0.7.4
