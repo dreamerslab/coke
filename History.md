@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.12.1 / 2012-09-06
+
+- [bug fix] Remove useless console.log
+
+
+
 ## 0.12.0 / 2012-09-06
 
 - [new feature] Add database migration tool
