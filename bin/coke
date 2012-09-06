@@ -55,6 +55,13 @@ switch( command ){
 
     break;
 
+  case 'm':
+  case 'migrate':
+    cli.migrate( args );
+    exit = false;
+
+    break;
+
   case 'h':
   case 'help':
   case '-h':
