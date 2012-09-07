@@ -1,0 +1,55 @@
+<? it.styles.push( 'scaffold' ); ?>
+<? it.title = 'Listing blogs'; ?>
+<? it.nav_selected = 'blogs'; ?>
+
+<div id="table">
+  <table>
+    <thead>
+      <tr>
+        <th nowrap="nowrap">
+          Title
+        </th>
+        <th nowrap="nowrap">
+          Desc
+        </th>
+        <th nowrap="nowrap">
+          IsPublic
+        </th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <? it.blogs.forEach( function ( blog ){ ?>
+
+      <tr>
+        <td>
+          <?= blog.title ?>
+        </td>
+        <td>
+          <?= blog.desc ?>
+        </td>
+        <td>
+          <?= blog.is_public ?>
+        </td>
+        <td>
+          <a href="/blogs/<?= blog._id ?>">Show</a>
+        </td>
+        <td>
+          <a href="/blogs/<?= blog._id ?>/edit">Edit</a>
+        </td>
+        <td>
+          <form action="/blogs/<?= blog._id ?>" method="POST" accept-charset="UTF-8" >
+            <input type="hidden" name="_method" value="delete" />
+            <input type="hidden" name="_csrf" value="<?= it.csrf ?>" />
+            <input class="submit-link" type="submit" value="Delete" />
+          </form>
+        </td>
+      </tr>
+
+      <? }); ?>
+    </tbody>
+  </table>
+</div>
+<a href="/blogs/new">New blog</a>

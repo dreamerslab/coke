@@ -1,0 +1,1 @@
+require( 'coke' )( __dirname );

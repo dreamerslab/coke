@@ -1,0 +1,11 @@
+<? it.styles.push( 'scaffold' ); ?>
+<? it.title = 'New blog'; ?>
+<? it.nav_selected = 'blogs'; ?>
+
+<form action="/blogs" method="POST" accept-charset="UTF-8" >
+  <div id="table">
+    <?= it.partial( 'blogs/form' ) ?>
+  </div>
+  <input class="submit-link" type="submit" value="Create blog" /> |
+  <a href="/blogs">Back</a>
+</form>

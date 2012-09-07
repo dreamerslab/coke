@@ -1,0 +1,13 @@
+<? it.styles.push( 'scaffold' ); ?>
+<? it.title = 'Editing blog'; ?>
+<? it.nav_selected = 'blogs'; ?>
+
+<form action="/blogs/<?= it.blog._id ?>" method="POST" accept-charset="UTF-8" >
+  <input type="hidden" name="_method" value="put" />
+  <div id="table">
+    <?= it.partial( 'blogs/_form' ) ?>
+  </div>
+  <input class="submit-link" type="submit" value="Update blog" /> |
+  <a href="/blogs/<?= it.blog._id ?>">Show</a> |
+  <a href="/blogs">Back</a>
+</form>

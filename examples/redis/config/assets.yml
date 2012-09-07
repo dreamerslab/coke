@@ -1,0 +1,33 @@
+---
+path:
+  output: assets
+  css: css
+  js: js
+
+# cdn setting
+asset_host:
+  # - http://assets1.example.com
+  # - http://assets2.example.com
+
+css:
+  # css group name
+  common:
+    site:
+      - common/reset
+      - common/util
+      - common/base
+      - common/header
+      - common/nav
+      - common/flash
+      - common/footer
+  scaffold:
+    site:
+      - scaffold
+
+js:
+  # js group name
+  common:
+    cdn:
+      - https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
+    site:
+      - common/ga

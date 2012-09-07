@@ -1,0 +1,19 @@
+#messages {
+  padding: 0 0 40px 10px;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+#messages li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.flash-info {
+  color: green;
+}
+
+.flash-error {
+  color: red;
+}
