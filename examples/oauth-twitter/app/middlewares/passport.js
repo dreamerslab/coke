@@ -1,6 +1,6 @@
 var passport = require( 'passport' );
 var Strategy = require( 'passport-twitter' ).Strategy;
-var User     = require( 'mongoose' ).model( 'User' );
+var User     = Model( 'User' );
 
 var config = CONF.passport;
 

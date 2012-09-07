@@ -1,11 +1,9 @@
-var mongoose = require( 'mongoose' );
-var Store    = require( 'connect-mongodb' );
-
+var Store   = require( 'connect-mongodb' );
 var session = CONF.session;
 var db      = CONF.db;
 
 var opt = {
-  db : mongoose.connections[ 0 ].db
+  db : UTILS.db()
 };
 
 if( session.collection ) opt.collection = session.collection;

@@ -1,7 +1,7 @@
 var Application = require( CONTROLLER_DIR + 'application' );
 var passport    = require( 'passport' );
 var mongoose    = require( 'mongoose' );
-var User        = mongoose.model( 'User' );
+var User        = Model( 'User' );
 
 module.exports = Application.extend({
 
