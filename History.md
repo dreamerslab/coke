@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.12.2 / 2012-09-07
+
+- [refactoring] Remove useless default packages
+- [refactoring] Update default error pages
+
+
+
 ## 0.12.1 / 2012-09-06
 
 - [bug fix] Remove useless console.log
