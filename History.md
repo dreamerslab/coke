@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.12.3 / 2012-09-26
+
+- [refactoring] Make testing env as similar as the prod env
+
+
+
 ## 0.12.2 / 2012-09-07
 
 - [refactoring] Remove useless default packages
