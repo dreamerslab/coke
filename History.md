@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.12.4 / 2012-09-26
+
+- [bug fix] `cli-color` api change
+
+
+
 ## 0.12.3 / 2012-09-26
 
 - [refactoring] Make testing env as similar as the prod env

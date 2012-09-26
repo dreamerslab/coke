@@ -3,7 +3,7 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.12.3",
+    "coke"            : "0.12.4",
     "connect-mongodb" : "1.1.5",
     "express-messages": "0.0.2",
     "moment"          : "1.7.0",
