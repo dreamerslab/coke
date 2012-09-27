@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.12.4 / 2012-09-27
+
+- [bug fix] Empty `asset_host` in prod mode
+
+
+
 ## 0.12.4 / 2012-09-26
 
 - [bug fix] `cli-color` api change
