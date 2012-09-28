@@ -1,6 +1,12 @@
 # Histroy
 
-## 0.12.4 / 2012-09-27
+## 0.12.6/ 2012-09-28
+
+- [refactoring] Move `asset_host` out of assets config
+
+
+
+## 0.12.5/ 2012-09-27
 
 - [bug fix] Empty `asset_host` in prod mode
 
