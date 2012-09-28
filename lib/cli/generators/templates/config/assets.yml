@@ -4,11 +4,6 @@ path:
   css: css
   js: js
 
-# cdn setting
-asset_host:
-  # - http://assets1.example.com
-  # - http://assets2.example.com
-
 # set to true to upload to s3 after building the aessts
 # you might want to map your `asset_host` to s3 with cname
 s3: false
