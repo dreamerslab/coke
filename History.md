@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.13.0/ 2012-10-8
+
+- [refactoring] For name confict, switch `typeof` back to `is`
+- [update packages] mongoose->3.2.1, aws2js->0.7.5, cli-color->0.2.1, moment->1.7.2
+
+
+
 ## 0.12.6/ 2012-09-28
 
 - [refactoring] Move `asset_host` out of assets config
