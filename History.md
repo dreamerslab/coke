@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.13.1/ 2012-10-16
+
+- [bug fix] `cli-color` changes `gary` to `brightBlack`
+- [update packages] mongoose->3.3.1
+
+
+
 ## 0.13.0/ 2012-10-8
 
 - [refactoring] For name confict, switch `typeof` back to `is`
