@@ -3,12 +3,13 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.13.1",
+    "coke"            : "0.13.2",
     "connect-mongodb" : "1.1.5",
     "express-messages": "0.0.2",
     "moment"          : "1.7.2",
     "mongoose"        : "3.3.1",
     "node.class"      : "1.0.1",
+    "node.packer"     : "2.0.0",
     "sitemap"         : "0.6.0",
     "thunder"         : "0.1.5"
   },

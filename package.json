@@ -1,6 +1,6 @@
 {
   "name"       : "coke",
-  "version"    : "0.13.1",
+  "version"    : "0.13.2",
   "description": "A full stack MVC framework that speeds up your web development.",
   "bin"        : {
     "coke": "./bin/coke",
@@ -9,7 +9,7 @@
   "keywords"    : [ "mvc", "express", "express mvc", "connect", "coke", "framework" ],
   "author"      : "dreamerslab <ben@dreamerslab.com>",
   "dependencies": {
-    "aws2js"        : "0.7.5",
+    "aws2js"        : "0.7.6",
     "cli-color"     : "0.2.1",
     "express"       : "2.5.11",
     "inflection"    : "1.2.3",
@@ -17,7 +17,7 @@
     "node.class"    : "1.0.1",
     "node.extend"   : "1.0.0",
     "node.flow"     : "1.1.3",
-    "node.packer"   : "1.0.0",
+    "node.packer"   : "2.0.0",
     "railway-routes": "0.0.7",
     "rmdir"         : "1.0.0"
   },

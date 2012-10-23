@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.13.2/ 2012-10-23
+
+- [update packages] `node.packer`->2.0.0
+
+
+
 ## 0.13.1/ 2012-10-16
 
 - [bug fix] `cli-color` changes `gary` to `brightBlack`
