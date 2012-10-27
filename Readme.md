@@ -26,7 +26,6 @@
 
   - node >= 0.8.x
   - mongodb >= 2.X
-  - python >= 2.6 for reading YAML files
   - packages
     - see packages.json
 
