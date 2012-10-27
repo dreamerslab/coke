@@ -2,7 +2,7 @@
 
 ## 0.13.3/ 2012-10-26
 
-- [refactoring] graceful shutdown server
+- [refactoring] gracefully shutdown server
 
 
 
