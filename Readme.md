@@ -1,6 +1,6 @@
 # COKE
 
-“ COKE is a node.js MVC framework base on [Express](http://expressjs.com/). It does not add too many magic, instead it provides a clean and well structured project bootstrap. ”
+“ COKE is a full stack node.js MVC framework base on [Express](http://expressjs.com/).”
 
 
 
@@ -12,21 +12,20 @@
   - RESTful routing, supports namespace and nested resource. Thanks to [RailwayJS](http://railwayjs.com/).
   - Assets management (something like assets pipeline in Rails). COKE uses a YAML file to manage all the assets. You can group them, specify which assets to be used in the action view. On production they will be combined and minified with a version number at the end.
   - Middleware and 3rd party lib support, which means all the [express](http://expressjs.com/) and [connect](http://www.senchalabs.org/connect/) middlewares can be used directly.
-  - Controller before and after filters.
+  - Controller filters for flow control.
   - Comprehensive logger for debugging.
   - Powerful generators for project prototyping.
   - Model command line console.
-  - Cluster support.
+  - Data migration tool.
+  - Cluster support, gracefully shutdown all workers and the server.
   - Socket.io compatible.
 
 
 
 ## Requires
 
-  - node >= 0.6.x
-  - npm >= 1.0.x
-  - mongodb >= 2.0.X
-  - Java jre6 for [YUI-compressor](http://developer.yahoo.com/yui/compressor/) which is used on packing assets
+  - node >= 0.8.x
+  - mongodb >= 2.X
   - python >= 2.6 for reading YAML files
   - packages
     - see packages.json
@@ -35,16 +34,10 @@
 
 ## Installation
 
-  - Set up node.js development enviroment, on [Mac](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-mac-osx-lion/) or [Ubuntu](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-ubuntu-11-04/)
-
-  - Ubuntu install java jre6
-
-<!---->
-
-    $ sudo apt-get install python-software-properties
-    $ sudo add-apt-repository ppa:ferramroberto/java
-    $ sudo apt-get update
-    $ sudo apt-get install sun-java6-jre
+  - Set up node.js development enviroment
+      - [Mac](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-mac-osx-lion/)
+      - [Ubuntu](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-ubuntu-11-04/)
+      - [Windows](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-windows/)
 
   - Install through npm
 
@@ -70,7 +63,7 @@
   - Add docs
   - Add tests
   - Add examples
-  - Use iform + mongoskin instead of mongoose
+
 
 
 ## License
