@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.13.4/ 2012-10-29
+
+- [bug fix] Pushed `undefined` assets group in view result in 500 error. https://github.com/dreamerslab/coke/issues/23
+
+
+
 ## 0.13.3/ 2012-10-26
 
 - [refactoring] gracefully shutdown server
