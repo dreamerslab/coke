@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.13.6/ 2012-11-2
+
+- [bug fix] Request id jump
+
+
+
 ## 0.13.5/ 2012-10-29
 
 - [refactoring] Remove liten on `SIGINT` event for gracefully shutdown server
