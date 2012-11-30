@@ -1,56 +1,63 @@
 # Histroy
 
-## 0.13.6/ 2012-11-2
+## 0.13.7 / 2012-11-30
+
+- [bug fix] Use global for `coke c`
+- [update packages] aws2js->0.7.7, js-yaml->1.0.3, node.flow->1.2.0, should->1.2.1, mongoose->3.4.0
+
+
+
+## 0.13.6 / 2012-11-2
 
 - [bug fix] Request id jump
 
 
 
-## 0.13.5/ 2012-10-29
+## 0.13.5 / 2012-10-29
 
 - [refactoring] Remove liten on `SIGINT` event for gracefully shutdown server
 
 
 
-## 0.13.4/ 2012-10-29
+## 0.13.4 / 2012-10-29
 
 - [bug fix] Pushed `undefined` assets group in view result in 500 error. https://github.com/dreamerslab/coke/issues/23
 
 
 
-## 0.13.3/ 2012-10-26
+## 0.13.3 / 2012-10-26
 
 - [refactoring] Gracefully shutdown server
 
 
 
-## 0.13.2/ 2012-10-23
+## 0.13.2 / 2012-10-23
 
-- [update packages] `node.packer`->2.0.0
+- [update packages] node.packer->2.0.0
 
 
 
-## 0.13.1/ 2012-10-16
+## 0.13.1 / 2012-10-16
 
 - [bug fix] `cli-color` changes `gary` to `brightBlack`
 - [update packages] mongoose->3.3.1
 
 
 
-## 0.13.0/ 2012-10-8
+## 0.13.0 / 2012-10-8
 
 - [refactoring] For name confict, switch `typeof` back to `is`
 - [update packages] mongoose->3.2.1, aws2js->0.7.5, cli-color->0.2.1, moment->1.7.2
 
 
 
-## 0.12.6/ 2012-09-28
+## 0.12.6 / 2012-09-28
 
 - [refactoring] Move `asset_host` out of assets config
 
 
 
-## 0.12.5/ 2012-09-27
+## 0.12.5 / 2012-09-27
 
 - [bug fix] Empty `asset_host` in prod mode
 
