@@ -1,5 +1,14 @@
 # Histroy
 
+## 0.13.8 / 2013-10-06
+
+- [refactoring] Load models with schema keys not base on file names
+- [refactoring] Error control for new version of flow
+- [bug fix] Export only migrations
+- [update packages] aws2js->0.7.9, inflection->1.2.4, node.flow->1.2.2, railway-routes->0.0.8-2, mongoose->3.5.3
+
+
+
 ## 0.13.7 / 2012-11-30
 
 - [bug fix] Use global for `coke c`
