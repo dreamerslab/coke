@@ -81,6 +81,13 @@ function coke( base_dir ){
     require( CORE_DIR + 'server' )( app, next );
   }).
 
+  error( function ( err ){
+    if( err ){
+      console.log( err );
+      process.exit( 1 );
+    }
+  }).
+
   // load 'after server start libs'
   end( function ( app ){
     LOG.sys( 'loading core module: started' );
@@ -88,11 +95,8 @@ function coke( base_dir ){
   });
 };
 
-
-
 coke.version = JSON.parse( fs.readFileSync( __dirname + '/package.json', 'utf8' )).version;
 coke.utils   = require( './lib/utils' );
-
 
 /**
  * Exports module.
