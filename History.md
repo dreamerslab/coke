@@ -1,6 +1,12 @@
 # Histroy
 
-## 0.13.8 / 2013-10-06
+## 0.13.9 / 2013-01-07
+
+- [bug fix] Missing file extensino in model builder
+
+
+
+## 0.13.8 / 2013-01-06
 
 - [refactoring] Load models with schema keys not base on file names
 - [refactoring] Error control for new version of flow
