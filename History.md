@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.13.10 / 2013-01-08
+
+- [refactoring] Logger now can be force to run in dev mode
+- [refactoring] Migration error handeling
+
+
+
 ## 0.13.9 / 2013-01-07
 
 - [bug fix] Missing file extensino in model builder
