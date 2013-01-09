@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.13.12 / 2013-01-09
+
+- [refactoring] migration `end` now take args from last action
+- [update packages] mongoose->3.5.4, inflection->1.2.5, node.packer->2.0.1
+
+
+
 ## 0.13.11 / 2013-01-09
 
 - [refactoring] Better error handling in loading configs
