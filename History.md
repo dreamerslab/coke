@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.13.11 / 2013-01-09
+
+- [refactoring] Better error handling in loading configs
+
+
+
 ## 0.13.10 / 2013-01-08
 
 - [refactoring] Logger now can be force to run in dev mode
