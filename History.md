@@ -1,5 +1,13 @@
 # Histroy
 
+## 0.13.13 / 2013-02-19
+
+- [refactoring] make loading s3 module safer in `coke b`
+- [bug fix] remvoe unloaded `LOG` in cli build
+- [update packages] aws2js->0.8.1, js-yaml->2.0.2, railway-routes->0.0.8-7, moment->2.0.0, mongoose->3.5.6
+
+
+
 ## 0.13.12 / 2013-01-09
 
 - [refactoring] migration `end` now take args from last action
