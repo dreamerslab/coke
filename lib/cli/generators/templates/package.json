@@ -3,11 +3,11 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.13.13",
+    "coke"            : "0.14.0",
     "connect-mongodb" : "1.1.5",
     "express-messages": "0.0.2",
     "moment"          : "2.0.0",
-    "mongoose"        : "3.5.4",
+    "mongoose"        : "3.5.7",
     "node.class"      : "1.0.1",
     "sitemap"         : "0.6.0",
     "thunder"         : "0.1.6"
