@@ -1,23 +1,31 @@
 # Histroy
 
+## 0.14.1 / 2013-03-24
+
+- [refactoring] Add `tmp` dir to gitignore
+- [refactoring] Use view name + hander_id as prod js, css cache key
+- [update packages] aws2js->0.8.3, mongoose->3.6.0, railway-routes->0.0.9-1
+
+
+
 ## 0.14.0 / 2013-03-09
 
-- [refactoring] helper `css` & `js` result now caches with controller action not view name
+- [refactoring] Helper `css` & `js` result now caches with controller action not view name
 - [update packages] cli-color->0.2.2, js-yaml->2.0.3, mongoose->3.5.7, railway-routes->0.0.9, should->1.2.2
 
 
 
 ## 0.13.13 / 2013-02-19
 
-- [refactoring] make loading s3 module safer in `coke b`
-- [bug fix] remvoe unloaded `LOG` in cli build
+- [refactoring] Make loading s3 module safer in `coke b`
+- [bug fix] Remvoe unloaded `LOG` in cli build
 - [update packages] aws2js->0.8.1, js-yaml->2.0.2, railway-routes->0.0.8-7, moment->2.0.0, mongoose->3.5.6
 
 
 
 ## 0.13.12 / 2013-01-09
 
-- [refactoring] migration `end` now take args from last action
+- [refactoring] Migration `end` now take args from last action
 - [update packages] mongoose->3.5.4, inflection->1.2.5, node.packer->2.0.1
 
 
