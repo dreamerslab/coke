@@ -1,5 +1,13 @@
 # Histroy
 
+## 0.15.0 / 2013-04-08
+
+- [update packages] mongoose->3.6.4
+- [new feature] Include inflection module in UTILS
+- [refactoring] Model builder
+
+
+
 ## 0.14.1 / 2013-03-24
 
 - [refactoring] Add `tmp` dir to gitignore
