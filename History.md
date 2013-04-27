@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.15.1 / 2013-04-26
+
+- [update packages] js-yaml->2.0.5, node.extend->1.0.5, mongoose->3.6.8
+- [bug fix] Add missing `var`
+
+
+
 ## 0.15.0 / 2013-04-08
 
 - [update packages] mongoose->3.6.4
