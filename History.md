@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.15.2 / 2013-06-11
+
+- [update packages] inflection->1.2.6, js-yaml->2.1.0, node.extend->1.0.7, mongoose->3.6.11
+- [refactoring] Trace error in logger
+
+
+
 ## 0.15.1 / 2013-04-26
 
 - [update packages] js-yaml->2.0.5, node.extend->1.0.5, mongoose->3.6.8
