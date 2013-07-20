@@ -1,5 +1,18 @@
 # Histroy
 
+## 0.16.1 / 2013-07-20
+
+- [refactoring] Remove useless console.log
+- [update packages] moment->2.1.0, mongoose->3.6.15, thunder->0.1.7
+
+
+
+## 0.16.0 / 2013-07-19
+
+- [refactoring] Move boot scripts from index to boot
+
+
+
 ## 0.15.2 / 2013-06-11
 
 - [update packages] inflection->1.2.6, js-yaml->2.1.0, node.extend->1.0.7, mongoose->3.6.11
