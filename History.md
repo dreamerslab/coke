@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.16.2 / 2013-09-18
+
+- [update packages] cli-color->0.2.3, node.extend->1.0.8, should->1.3.0, moment->2.2.1, mongoose->3.6.19, thunder->0.1.8
+- [new feature] Added UTILS.unique & UTILS.extend
+
+
+
 ## 0.16.1 / 2013-07-20
 
 - [refactoring] Remove useless console.log
