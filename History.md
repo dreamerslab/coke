@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.16.4 / 2013-10-01
+
+- [update packages] js-yaml->2.1.1
+- [bug fix] Model loading sequence
+
+
+
 ## 0.16.3 / 2013-09-30
 
 - [update packages] mongoose->3.6.20, thunder->0.1.9
