@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.16.3 / 2013-09-30
+
+- [update packages] mongoose->3.6.20, thunder->0.1.9
+- [new feature] Coke now takes none mongoose model
+
+
+
 ## 0.16.2 / 2013-09-18
 
 - [update packages] cli-color->0.2.3, node.extend->1.0.8, should->1.3.0, moment->2.2.1, mongoose->3.6.19, thunder->0.1.8
