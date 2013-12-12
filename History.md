@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.16.5 / 2013-12-11
+
+- [update packages] inflection->1.3.2, js-yaml->2.1.3, moment->2.4.0, mongoose->3.8.1, node.class->1.1.1, node.packer->2.0.3, rmdir->1.0.2, should->2.1.1, sitemap->0.7.1
+
+
+
 ## 0.16.4 / 2013-10-01
 
 - [update packages] js-yaml->2.1.1
