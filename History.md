@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.17.0 / 2013-12-16
+
+- [update packages] js-yaml->3.0.0, mongoose->3.8.2
+
+
+
 ## 0.16.6 / 2013-12-12
 
 - [bug fix] Pass `Error` to next filter instead of jump out of stack
