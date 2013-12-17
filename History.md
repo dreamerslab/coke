@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.17.3 / 2013-12-17
+
+- [update packages] node.class->1.1.4
+
+
+
 ## 0.17.2 / 2013-12-17
 
 - [update packages] node.class->1.1.3
