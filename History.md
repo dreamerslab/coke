@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.17.1 / 2013-12-16
+
+- [update packages] node.class->1.1.2
+
+
+
 ## 0.17.0 / 2013-12-16
 
 - [update packages] js-yaml->3.0.0, mongoose->3.8.2
