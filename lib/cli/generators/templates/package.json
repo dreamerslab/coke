@@ -3,14 +3,14 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.17.3",
+    "coke"            : "0.17.4",
     "connect-mongodb" : "1.1.5",
     "express-messages": "0.0.2",
     "moment"          : "2.4.0",
-    "mongoose"        : "3.8.2",
+    "mongoose"        : "3.8.3",
     "node.class"      : "1.1.4",
     "sitemap"         : "0.7.1",
-    "thunder"         : "0.1.10"
+    "thunder"         : "0.1.11"
   },
   "main"    : "server",
   "engines" : [ "node >= 0.8.0" ]
