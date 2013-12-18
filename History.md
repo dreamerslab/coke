@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.17.4 / 2013-12-18
+
+- [update packages] mongoose->3.8.3, rmdir->1.0.3, thunder->0.1.11
+
+
+
 ## 0.17.3 / 2013-12-17
 
 - [update packages] node.class->1.1.4
