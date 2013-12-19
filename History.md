@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.18.2 / 2013-12-19
+
+- [bug fix] Use `div` tag with id instead of `nav` tag in `nav` partial generator template
+
+
+
 ## 0.18.1 / 2013-12-19
 
 - [bug fix] Added missing `/` in `application controller` generator template
