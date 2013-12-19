@@ -1,39 +1,57 @@
 {
-  "name"       : "coke",
-  "version"    : "0.17.4",
+  "name": "coke",
+  "version": "0.18.0",
   "description": "A full stack MVC framework that speeds up your web development.",
-  "bin"        : {
+  "bin": {
     "coke": "./bin/coke",
-    "co"  : "./bin/coke"
+    "co": "./bin/coke"
   },
-  "keywords"    : [ "mvc", "express", "express mvc", "connect", "coke", "framework" ],
-  "author"      : "dreamerslab <ben@dreamerslab.com>",
+  "keywords": [
+    "mvc",
+    "express",
+    "express mvc",
+    "connect",
+    "coke",
+    "framework"
+  ],
+  "author": {
+    "name": "dreamerslab",
+    "email": "ben@dreamerslab.com"
+  },
   "dependencies": {
-    "aws2js"        : "0.8.3",
-    "cli-color"     : "0.2.3",
-    "express"       : "2.5.11",
-    "inflection"    : "1.3.2",
-    "js-yaml"       : "3.0.0",
-    "node.class"    : "1.1.4",
-    "node.extend"   : "1.0.8",
-    "node.flow"     : "1.2.3",
-    "node.packer"   : "2.0.3",
+    "aws2js": "0.8.3",
+    "cli-color": "0.2.3",
+    "express": "3.4.7",
+    "inflection": "1.3.2",
+    "js-yaml": "3.0.0",
+    "node.class": "1.1.4",
+    "node.extend": "1.0.8",
+    "node.flow": "1.2.3",
+    "node.packer": "2.0.3",
     "railway-routes": "0.0.9-3",
-    "rmdir"         : "1.0.3"
+    "rmdir": "1.0.3"
   },
   "devDependencies": {
     "should": "2.1.1"
   },
   "repository": {
     "type": "git",
-    "url" : "https://github.com/dreamerslab/coke.git"
+    "url": "https://github.com/dreamerslab/coke.git"
   },
   "homepage": "http://coke-js.org/",
-  "bugs"    : "https://github.com/dreamerslab/coke/issues",
-  "main"    : "index",
-  "engines" : [ "node >= 0.8.0" ],
-  "licenses": [{
-    "type": "MIT",
-    "url" : "http://en.wikipedia.org/wiki/MIT_License"
-  }]
+  "bugs": {
+    "url": "https://github.com/dreamerslab/coke/issues"
+  },
+  "main": "index",
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://en.wikipedia.org/wiki/MIT_License"
+    }
+  ],
+  "readme": "# COKE\n\n“ COKE is a full stack node.js MVC framework base on [Express](http://expressjs.com/).”\n\n\n\n## Features\n\n  - MVC structure.\n  - [Mongoose](http://mongoosejs.com/) as ODM (mongodb), supports validation.\n  - Lightening fast template parsing with [thunder](https://github.com/dreamerslab/thunder). It renders over a million pages within a second. However it can be replaced with any express compatible ones if it does not fit your need.\n  - RESTful routing, supports namespace and nested resource. Thanks to [RailwayJS](http://railwayjs.com/).\n  - Assets management (something like assets pipeline in Rails). COKE uses a YAML file to manage all the assets. You can group them, specify which assets to be used in the action view. On production they will be combined and minified with a version number at the end.\n  - Middleware and 3rd party lib support, which means all the [express](http://expressjs.com/) and [connect](http://www.senchalabs.org/connect/) middlewares can be used directly.\n  - Controller filters for flow control.\n  - Comprehensive logger for debugging.\n  - Powerful generators for project prototyping.\n  - Model command line console.\n  - Data migration tool.\n  - Cluster support, gracefully shutdown all workers and the server.\n  - Socket.io compatible.\n\n\n\n## Requires\n\n  - node >= 0.8.x\n  - mongodb >= 2.X\n  - packages\n    - see packages.json\n\n\n\n## Installation\n\n  - Set up node.js development enviroment\n      - [Mac](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-mac-osx-lion/)\n      - [Ubuntu](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-ubuntu-11-04/)\n      - [Windows](http://dreamerslab.com/blog/en/how-to-setup-a-node-js-development-environment-on-windows/)\n\n  - Install through npm\n\n<!---->\n\n    npm install coke -g\n\n\n\n## Quick start\n\n    $ coke new blog && cd blog\n    $ npm install -l\n    $ coke g scaffold posts title content is_public:bool\n    # make sure your mongodb is on\n    $ coke s\n    $ open http://127.0.0.1:4000\n\n\n\n## Todo\n\n  - Add docs\n  - Add tests\n  - Add examples\n\n\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2012 dreamerslab &lt;ben@dreamerslab.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "readmeFilename": "Readme.md"
 }
