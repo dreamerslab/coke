@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.18.4 / 2013-12-19
+
+- [bug fix] Added missing `/` AGAIN
+
+
+
 ## 0.18.3 / 2013-12-19
 
 - [bug fix] Added missing `/`
