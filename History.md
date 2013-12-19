@@ -1,5 +1,13 @@
 # Histroy
 
+## 0.18.1 / 2013-12-19
+
+- [bug fix] Added missing `/` in `application controller` generator template
+- [bug fix] Use `div` tag with id instead of `nav` tag in `nav` partial generator template
+- [refactoring] Remove `;` in view generator template
+
+
+
 ## 0.18.0 / 2013-12-19
 
 - [update packages] express->3.4.7
