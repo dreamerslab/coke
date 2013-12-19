@@ -1,5 +1,14 @@
 # Histroy
 
+## 0.18.0 / 2013-12-19
+
+- [update packages] express->3.4.7
+- [update packages] Use express-thunder instead of thunder as view management
+- [update packages] Drop express-messages. Use built in `flash` instead
+- [update packages] Use connect-mongo instead of connect-mongodb for session
+
+
+
 ## 0.17.4 / 2013-12-18
 
 - [update packages] mongoose->3.8.3, rmdir->1.0.3, thunder->0.1.11
