@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.18.3 / 2013-12-19
+
+- [bug fix] Added missing `/`
+
+
+
 ## 0.18.2 / 2013-12-19
 
 - [bug fix] Use `div` tag with id instead of `nav` tag in `nav` partial generator template
