@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.18.7 / 2013-12-20
+
+- Added multipart & dynamic_helpers middlewares to configs
+
+
+
 ## 0.18.6 / 2013-12-20
 
 - [bug fix] `mkdir` if assets output dir is missing

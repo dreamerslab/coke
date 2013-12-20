@@ -3,7 +3,7 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.18.6",
+    "coke"            : "0.18.7",
     "connect-mongo"   : "0.4.0",
     "express-thunder" : "1.1.6",
     "moment"          : "2.4.0",
