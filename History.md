@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.18.6 / 2013-12-20
+
+- [bug fix] `mkdir` if assets output dir is missing
+
+
+
 ## 0.18.5 / 2013-12-20
 
 - [bug fix] Remove extra trailing slash
