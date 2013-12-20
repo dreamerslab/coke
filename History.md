@@ -1,14 +1,21 @@
 # Histroy
 
+## 0.18.5 / 2013-12-20
+
+- [bug fix] Remove extra trailing slash
+- [bug fix] Move `styles`, `scripts` to dynamic helper
+
+
+
 ## 0.18.4 / 2013-12-19
 
-- [bug fix] Added missing `/` AGAIN
+- [bug fix] Added missing slash AGAIN
 
 
 
 ## 0.18.3 / 2013-12-19
 
-- [bug fix] Added missing `/`
+- [bug fix] Added missing slash
 
 
 
@@ -20,7 +27,7 @@
 
 ## 0.18.1 / 2013-12-19
 
-- [bug fix] Added missing `/` in `application controller` generator template
+- [bug fix] Added missing slash in `application controller` generator template
 - [bug fix] Use `div` tag with id instead of `nav` tag in `nav` partial generator template
 - [refactoring] Remove `;` in view generator template
 
