@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.18.8 / 2013-12-27
+
+- [update packages] js-yaml->3.0.1, moment->2.5.0
+- [refactoring] Apply helper to app level
+
+
 ## 0.18.7 / 2013-12-20
 
 - Added multipart & dynamic_helpers middlewares to configs
