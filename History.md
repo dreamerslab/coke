@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.18.9 / 2013-12-27
+
+- [bug fix] Use node default `server.close` instead of express `app.close`
+
+
+
 ## 0.18.8 / 2013-12-27
 
 - [update packages] js-yaml->3.0.1, moment->2.5.0
