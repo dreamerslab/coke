@@ -1,5 +1,12 @@
 # Histroy
 
+## 0.18.10 / 2013-12-27
+
+- [bug fix] Added error handle for controller stack
+- [refactoring] Enable output log in terminal on production mode
+
+
+
 ## 0.18.9 / 2013-12-27
 
 - [bug fix] Use node default `server.close` instead of express `app.close`
