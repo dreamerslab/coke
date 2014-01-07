@@ -1,5 +1,13 @@
 # Histroy
 
+## 0.18.11 / 2014-01-07
+
+- [bug fix] Context bug in `stach.js`
+- [refactoring] Allow `null` var for logger config
+- [update packages] node.extend->1.0.9
+
+
+
 ## 0.18.10 / 2013-12-27
 
 - [bug fix] Added error handle for controller stack
