@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.18.12 / 2014-01-09
+
+- [update packages] rmdir->1.0.4, mongoose->3.8.4
+
+
+
 ## 0.18.11 / 2014-01-07
 
 - [bug fix] Context bug in `stach.js`
