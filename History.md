@@ -1,5 +1,9 @@
 # Histroy
 
+## 0.18.13 / 2014-04-08
+
+- [refactor] refactor migration and load whole environment while do migration
+
 ## 0.18.12 / 2014-01-09
 
 - [update packages] rmdir->1.0.4, mongoose->3.8.4
