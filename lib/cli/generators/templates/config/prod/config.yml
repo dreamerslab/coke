@@ -27,10 +27,10 @@ session:
 logs:
   - error
 
-libs: []
+libs:
 
 # libs that must run after server started
-started: []
+started:
 
 # cdn setting
 asset_host:

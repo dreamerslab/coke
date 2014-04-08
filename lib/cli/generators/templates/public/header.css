@@ -1,8 +1,5 @@
 #header {
   position: relative;
-}
-
-header {
   padding: 230px 0 40px;
 }
 
@@ -14,5 +11,5 @@ header {
   text-indent: -9999px;
   width: 200px;
   height: 120px;
-  background: url('/img/sprite.png') no-repeat 0 -25px;
+  background: url('/img/sprite.png') no-repeat 0 0;
 }

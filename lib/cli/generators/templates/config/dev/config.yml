@@ -31,10 +31,10 @@ logs:
   - error
   - debug
 
-libs: []
+libs:
 
 # libs that must run after server started
-started: []
+started:
 
 aws:
   # your aws key & secret, those must not be empty if you set s3 option to true in assets config

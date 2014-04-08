@@ -3,15 +3,17 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.16.2",
-    "connect-mongodb" : "1.1.5",
-    "express-messages": "0.0.2",
-    "moment"          : "2.2.1",
-    "mongoose"        : "3.6.19",
-    "node.class"      : "1.0.1",
-    "sitemap"         : "0.6.0",
-    "thunder"         : "0.1.8"
+    "coke"            : "0.18.12",
+    "connect-mongo"   : "0.4.0",
+    "express-thunder" : "1.1.6",
+    "moment"          : "2.5.0",
+    "mongoose"        : "3.8.4",
+    "node.class"      : "1.1.4",
+    "sitemap"         : "0.7.1"
   },
-  "main"    : "server",
-  "engines" : [ "node >= 0.8.0" ]
+  "devDependencies": {
+    "should": "2.1.1"
+  },
+  "main"   : "server",
+  "engines": [ "node >= 0.8.0" ]
 }

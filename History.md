@@ -1,5 +1,149 @@
 # Histroy
 
+## 0.18.12 / 2014-01-09
+
+- [update packages] rmdir->1.0.4, mongoose->3.8.4
+
+
+
+## 0.18.11 / 2014-01-07
+
+- [bug fix] Context bug in `stach.js`
+- [refactoring] Allow `null` var for logger config
+- [update packages] node.extend->1.0.9
+
+
+
+## 0.18.10 / 2013-12-27
+
+- [bug fix] Added error handle for controller stack
+- [refactoring] Enable output log in terminal on production mode
+
+
+
+## 0.18.9 / 2013-12-27
+
+- [bug fix] Use node default `server.close` instead of express `app.close`
+
+
+
+## 0.18.8 / 2013-12-27
+
+- [update packages] js-yaml->3.0.1, moment->2.5.0
+- [refactoring] Apply helper to app level
+
+
+## 0.18.7 / 2013-12-20
+
+- Added multipart & dynamic_helpers middlewares to configs
+
+
+
+## 0.18.6 / 2013-12-20
+
+- [bug fix] `mkdir` if assets output dir is missing
+
+
+
+## 0.18.5 / 2013-12-20
+
+- [bug fix] Remove extra trailing slash
+- [bug fix] Move `styles`, `scripts` to dynamic helper
+
+
+
+## 0.18.4 / 2013-12-19
+
+- [bug fix] Added missing slash AGAIN
+
+
+
+## 0.18.3 / 2013-12-19
+
+- [bug fix] Added missing slash
+
+
+
+## 0.18.2 / 2013-12-19
+
+- [bug fix] Use `div` tag with id instead of `nav` tag in `nav` partial generator template
+
+
+
+## 0.18.1 / 2013-12-19
+
+- [bug fix] Added missing slash in `application controller` generator template
+- [bug fix] Use `div` tag with id instead of `nav` tag in `nav` partial generator template
+- [refactoring] Remove `;` in view generator template
+
+
+
+## 0.18.0 / 2013-12-19
+
+- [update packages] express->3.4.7
+- [update packages] Use express-thunder instead of thunder as view management
+- [update packages] Drop express-messages. Use built in `flash` instead
+- [update packages] Use connect-mongo instead of connect-mongodb for session
+
+
+
+## 0.17.4 / 2013-12-18
+
+- [update packages] mongoose->3.8.3, rmdir->1.0.3, thunder->0.1.11
+
+
+
+## 0.17.3 / 2013-12-17
+
+- [update packages] node.class->1.1.4
+
+
+
+## 0.17.2 / 2013-12-17
+
+- [update packages] node.class->1.1.3
+
+
+
+## 0.17.1 / 2013-12-16
+
+- [update packages] node.class->1.1.2
+
+
+
+## 0.17.0 / 2013-12-16
+
+- [update packages] js-yaml->3.0.0, mongoose->3.8.2
+
+
+
+## 0.16.6 / 2013-12-12
+
+- [bug fix] Pass `Error` to next filter instead of jump out of stack
+- [refactoring] Use instance var instead of `this`
+
+
+
+## 0.16.5 / 2013-12-11
+
+- [update packages] inflection->1.3.2, js-yaml->2.1.3, moment->2.4.0, mongoose->3.8.1, node.class->1.1.1, node.packer->2.0.3, rmdir->1.0.2, should->2.1.1, sitemap->0.7.1
+
+
+
+## 0.16.4 / 2013-10-01
+
+- [update packages] js-yaml->2.1.1
+- [bug fix] Model loading sequence
+
+
+
+## 0.16.3 / 2013-09-30
+
+- [update packages] mongoose->3.6.20, thunder->0.1.9
+- [new feature] Coke now takes none mongoose model
+
+
+
 ## 0.16.2 / 2013-09-18
 
 - [update packages] cli-color->0.2.3, node.extend->1.0.8, should->1.3.0, moment->2.2.1, mongoose->3.6.19, thunder->0.1.8
