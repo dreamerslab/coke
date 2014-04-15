@@ -3,6 +3,9 @@
 ## 0.18.13 / 2014-04-08
 
 - [refactor] refactor migration and load whole environment while do migration
+- [update packages] express->3.5.1, inflection->1.3.5, js-yaml->3.0.2, node.extend->1.0.10, railway-routes->0.0.10, should->3.3.0, moment->2.6.0, mongoose->3.8.8, sitemap->0.7.2
+
+
 
 ## 0.18.12 / 2014-01-09
 
