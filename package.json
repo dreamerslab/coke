@@ -1,6 +1,6 @@
 {
   "name": "coke",
-  "version": "0.18.13",
+  "version": "0.18.14",
   "description": "A full stack MVC framework that speeds up your web development.",
   "bin": {
     "coke": "./bin/coke",
@@ -32,7 +32,7 @@
     "rmdir": "1.0.4"
   },
   "devDependencies": {
-    "should": "3.3.0"
+    "should": "3.3.1"
   },
   "repository": {
     "type": "git",
