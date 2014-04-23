@@ -3,6 +3,8 @@
 ## 0.18.14 / 2014-04-23
 
 - [bug fix] fix crash problem while booting server
+- [update packages] should->3.3.1
+
 
 ## 0.18.13 / 2014-04-08
 
