@@ -1,5 +1,9 @@
 # Histroy
 
+## 0.18.14 / 2014-04-23
+
+- [bug fix] fix crash problem while booting server
+
 ## 0.18.13 / 2014-04-08
 
 - [refactor] refactor migration and load whole environment while do migration
