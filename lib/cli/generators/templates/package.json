@@ -3,16 +3,25 @@
   "version"     : "0.0.1",
   "private"     : true,
   "dependencies": {
-    "coke"            : "0.18.14",
-    "connect-mongo"   : "0.4.0",
-    "express-thunder" : "1.1.6",
-    "moment"          : "2.6.0",
-    "mongoose"        : "3.8.8",
-    "node.class"      : "1.1.4",
-    "sitemap"         : "0.7.2"
+    "body-parser"        : "1.2.0",
+    "coke"               : "0.19.0",
+    "cookie-parser"      : "1.1.0",
+    "connect-mongo"      : "0.4.1",
+    "connect-multiparty" : "1.0.3",
+    "csurf"              : "1.2.0",
+    "errorhandler"       : "1.0.1",
+    "express-session"    : "1.2.0",
+    "express-thunder"    : "1.1.6",
+    "method-override"    : "1.0.2",
+    "moment"             : "2.6.0",
+    "mongoose"           : "3.8.11",
+    "node.class"         : "1.1.4",
+    "sitemap"            : "0.7.2"
   },
   "devDependencies": {
-    "should": "3.3.1"
+    "serve-favicon" : "2.0.0",
+    "serve-static"  : "1.1.0",
+    "should"        : "3.3.2"
   },
   "main"   : "server",
   "engines": [ "node >= 0.8.0" ]
