@@ -1,9 +1,19 @@
 # Histroy
 
+## 0.19.0 / 2014-05-24
+- [update packages] body-parser->1.2.0, cli-color->0.3.2, cookie-parser->1.1.0, connect-mongo->0.4.1, connect-multiparty->1.0.3, csurf->1.2.0, errorhandler->1.0.1, express->4.3.1, express-session->1.2.0, method-override->1.0.2, mongoose->3.8.11, serve-favicon->2.0.0, serve-static->1.1.0, should->3.3.2
+- [refactoring] add removed connect middlewares
+- [refactoring] adopt express 4 changes
+- [refactoring] merge production logs to one file ( coke.log )
+- [refactoring] split cookie secret from session
+
+
+
 ## 0.18.14 / 2014-04-23
 
 - [bug fix] fix crash problem while booting server
 - [update packages] should->3.3.1
+
 
 
 ## 0.18.13 / 2014-04-08
