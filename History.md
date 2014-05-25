@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.20.1 / 2014-05-25
+- [bug fix] add missing middlewares in generator
+
+
+
 ## 0.20.0 / 2014-05-25
 - [refactoring] use proper status code in application controller
 - [new feature] ability to use model outside of the application scope
