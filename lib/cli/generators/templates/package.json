@@ -4,7 +4,7 @@
   "private"     : true,
   "dependencies": {
     "body-parser"        : "1.2.0",
-    "coke"               : "0.20.2",
+    "coke"               : "0.20.3",
     "cookie-parser"      : "1.1.0",
     "connect-mongo"      : "0.4.1",
     "connect-multiparty" : "1.0.3",
