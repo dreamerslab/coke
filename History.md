@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.20.4 / 2014-05-25
+- [bug fix] add serve-favicon and serve-static todependencies
+
+
+
 ## 0.20.3 / 2014-05-25
 - [bug fix] add missing middlewares in generator
 
