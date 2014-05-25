@@ -16,13 +16,11 @@
     "moment"             : "2.6.0",
     "mongoose"           : "3.8.11",
     "node.class"         : "1.1.4",
+    "serve-favicon"      : "2.0.0",
+    "serve-static"       : "1.1.0",
     "sitemap"            : "0.7.2"
   },
-  "devDependencies": {
-    "serve-favicon" : "2.0.0",
-    "serve-static"  : "1.1.0",
-    "should"        : "3.3.2"
-  },
+  "devDependencies": {},
   "main"   : "server",
   "engines": [ "node >= 0.8.0" ]
 }
