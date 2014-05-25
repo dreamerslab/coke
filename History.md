@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.20.2 / 2014-05-25
+- [bug fix] typo
+
+
+
 ## 0.20.1 / 2014-05-25
 - [bug fix] add missing middlewares in generator
 
