@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.21.1 / 2014-07-13
+- [update packages] express->4.6.1, express-session->1.6.5, serve-static->1.3.2
+
+
+
 ## 0.21.0 / 2014-07-08
 - [new feature] support css media query
 - [update packages] body-parser->1.4.3, cookie-parser->1.3.2, connect-multiparty->1.1.0, csurf->1.3.0, errorhandler->1.1.1, express-session->1.6.4, moment->2.7.0, mongoose->3.8.12, serve-favicon->2.0.1, serve-static->1.3.0, sitemap->0.7.3, express->4.5.1, inflection->1.3.8, js-yaml->3.1.0, should->4.0.4
