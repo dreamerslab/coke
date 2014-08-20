@@ -2,6 +2,7 @@
 
 ## 0.21.1 / 2014-07-13
 - [update packages] express->4.6.1, express-session->1.6.5, serve-static->1.3.2
+- [bug fix] check cdn in cofig exist before running the loop
 
 
 
