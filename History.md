@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.22.0 / 2014-08-20
+- [update packages] body-parser->1.6.5, connect-multiparty->1.2.1, csurf->1.4.0, express->4.8.5, express-session->1.7.6, method-override->2.1.3, moment->2.8.1, mongoose->3.8.15, node.extend->1.1.0, serve-static->1.5.3
+
+
+
 ## 0.21.1 / 2014-07-13
 - [update packages] express->4.6.1, express-session->1.6.5, serve-static->1.3.2
 - [bug fix] check cdn in cofig exist before running the loop
