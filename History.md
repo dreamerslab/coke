@@ -1,5 +1,8 @@
 # Histroy
 
+## 0.23.0 / 2014-09-3
+- [refactor] refactor logger system, now user can use other logger framework by providing customize log adapter
+
 ## 0.22.0 / 2014-08-20
 - [update packages] body-parser->1.6.5, connect-multiparty->1.2.1, csurf->1.4.0, express->4.8.5, express-session->1.7.6, method-override->2.1.3, moment->2.8.1, mongoose->3.8.15, node.extend->1.1.0, serve-static->1.5.3
 
