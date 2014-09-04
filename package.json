@@ -1,6 +1,6 @@
 {
   "name": "coke",
-  "version": "0.24.2",
+  "version": "0.24.3",
   "description": "A full stack MVC framework that speeds up your web development.",
   "bin": {
     "coke": "./bin/coke",
@@ -29,8 +29,7 @@
     "node.flow"      : "1.2.3",
     "node.packer"    : "2.0.3",
     "railway-routes" : "0.0.10",
-    "rmdir"          : "1.0.4",
-    "utils-merge"    : "1.0.0"
+    "rmdir"          : "1.0.4"
   },
   "devDependencies": {
     "should": "4.0.4"
