@@ -1,7 +1,15 @@
 # Histroy
 
-## 0.23.0 / 2014-09-3
-- [refactor] refactor logger system, now user can use other logger framework by providing customize log adapter
+## 0.24.0 / 2014-09-04
+- [new feature] Customizable directory
+- [update packages] body-parser->1.7.0, connect-multiparty->1.2.4, csurf->1.5.0, errorhandler->1.2.0, express->4.8.7, inflection->1.4.1, js-yaml->3.2.1, method-override->2.2.0, moment->2.8.2, node.extend->1.1.2, serve-favicon->2.1.1, sitemap->0.7.4
+
+
+
+## 0.23.0 / 2014-09-03
+- [new feature] refactor logger system, now user can use other logger framework by providing customize log adapter
+
+
 
 ## 0.22.0 / 2014-08-20
 - [update packages] body-parser->1.6.5, connect-multiparty->1.2.1, csurf->1.4.0, express->4.8.5, express-session->1.7.6, method-override->2.1.3, moment->2.8.1, mongoose->3.8.15, node.extend->1.1.0, serve-static->1.5.3
