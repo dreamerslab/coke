@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.24.2 / 2014-09-04
+- [bug fix] Fix logger in bug migration
+
+
+
 ## 0.24.1 / 2014-09-04
 - [bug fix] Fix coke.setup_models not working with new logger system
 
