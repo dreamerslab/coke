@@ -29,7 +29,8 @@
     "node.flow"      : "1.2.3",
     "node.packer"    : "2.0.3",
     "railway-routes" : "0.0.10",
-    "rmdir"          : "1.0.4"
+    "rmdir"          : "1.0.4",
+    "utils-merge"    : "1.0.0"
   },
   "devDependencies": {
     "should": "4.0.4"

@@ -45,3 +45,14 @@ aws:
   secret:
   s3:
     bucket: assets.APPNAME
+
+dir:
+  model:      app/models
+  controller: app/controllers
+  view:       app/views
+  helper:     app/helpers
+  lib:        app/libs
+  locale:     app/locales
+  public:     public
+  schema:     db/schema
+  middleware: app/middlewares
