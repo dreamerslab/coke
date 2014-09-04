@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.24.3 / 2014-09-05
+- [refactor] Use node.extend instead of utils-merge
+
+
+
 ## 0.24.2 / 2014-09-04
 - [bug fix] Fix logger in bug migration
 
