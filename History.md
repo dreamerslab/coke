@@ -2,6 +2,7 @@
 
 ## 0.24.3 / 2014-09-05
 - [refactor] Use node.extend instead of utils-merge
+- [bug fix] Fix non-mongoose model loading problem
 
 
 
