@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.24.4 / 2014-09-17
+- [update packages] body-parser->1.8.2, cookie-parser->1.3.3, csurf->1.6.1, express->4.9.1, express-session->1.8.2, inflection->1.4.2, js-yaml->3.2.2, moment->2.8.3, mongoose->3.8.16, serve-favicon->2.1.4, serve-static->1.6.2
+- [refactor][bug fix] Rewrite the LOG.error function
+
+
+
 ## 0.24.3 / 2014-09-05
 - [refactor] Use node.extend instead of utils-merge
 - [bug fix] Fix non-mongoose model loading problem
