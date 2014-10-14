@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.24.6 / 2014-09-18
+- [update packages] body-parser->1.9.0, errorhandler->1.2.1, express->4.9.7, inflection->1.5.1, mongoose->3.8.17, serve-favicon->2.1.5, serve-static->1.6.4
+- [bug fix] body-parser was not expoted in template
+
+
+
 ## 0.24.5 / 2014-09-18
 - [update packages] express->4.9.2
 - [bug fix] print err.stack instead of err name
