@@ -1,6 +1,6 @@
 {
   "name": "coke",
-  "version": "0.24.6",
+  "version": "0.24.7",
   "description": "A full stack MVC framework that speeds up your web development.",
   "bin": {
     "coke": "./bin/coke",
@@ -21,7 +21,7 @@
   "dependencies": {
     "aws2js"         : "0.8.3",
     "cli-color"      : "0.3.2",
-    "express"        : "4.9.7",
+    "express"        : "4.10.0",
     "inflection"     : "1.5.1",
     "js-yaml"        : "3.2.2",
     "node.class"     : "1.1.4",
@@ -32,7 +32,7 @@
     "rmdir"          : "1.0.4"
   },
   "devDependencies": {
-    "should": "4.0.4"
+    "should": "4.1.0"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.24.7 / 2014-10-24
+- [update packages] body-parser->1.9.1, connect-multiparty->1.2.5, csurf->1.6.2, errorhandler->1.2.2, express->4.10.0, express-session->1.9.1, method-override->2.3.0, mongoose->3.8.18, serve-favicon->2.1.6, serve-static->1.7.1, should->4.1.0
+- [bug fix] Use instanceof for checking error in utiils.is
+
+
+
 ## 0.24.6 / 2014-09-18
 - [update packages] body-parser->1.9.0, errorhandler->1.2.1, express->4.9.7, inflection->1.5.1, mongoose->3.8.17, serve-favicon->2.1.5, serve-static->1.6.4
 - [bug fix] body-parser was not expoted in template
