@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.24.8 / 2014-10-24
+- [update packages] body-parser->1.10.0, csurf->, errorhandler->1.3.0, express->4.10.5, express-session->1.9.3, inflection->1.5.3, js-yaml->3.2.3, moment->2.8.4, mongoose->3.8.20, serve-favicon->2.1.7, should->4.3.1
+
+
+
 ## 0.24.7 / 2014-10-24
 - [update packages] body-parser->1.9.1, connect-multiparty->1.2.5, csurf->1.6.2, errorhandler->1.2.2, express->4.10.0, express-session->1.9.1, method-override->2.3.0, mongoose->3.8.18, serve-favicon->2.1.6, serve-static->1.7.1, should->4.1.0
 - [bug fix] Use instanceof for checking error in utiils.is
