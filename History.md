@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.25.0 / 2015-01-14
+- [update packages] body-parser->1.10.1, connect-mongo->0.6.0, csurf->1.6.5, errorhandler->1.3.2, express->4.11.0, express-session->1.10.1, js-yaml->3.2.5, method-override->2.3.1, moment->2.9.0, mongoose->3.8.21, serve-favicon->2.2.0, serve-static->1.8.0, should->4.6.0
+
+
+
 ## 0.24.8 / 2014-10-24
 - [update packages] body-parser->1.10.0, csurf->, errorhandler->1.3.0, express->4.10.5, express-session->1.9.3, inflection->1.5.3, js-yaml->3.2.3, moment->2.8.4, mongoose->3.8.20, serve-favicon->2.1.7, should->4.3.1
 
