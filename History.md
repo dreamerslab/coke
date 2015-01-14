@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.25.1 / 2015-01-14
+- [bug fix] Pass mongooseConnection instead of db instance for express session
+
+
+
 ## 0.25.0 / 2015-01-14
 - [update packages] body-parser->1.10.1, connect-mongo->0.6.0, csurf->1.6.5, errorhandler->1.3.2, express->4.11.0, express-session->1.10.1, js-yaml->3.2.5, method-override->2.3.1, moment->2.9.0, mongoose->3.8.21, serve-favicon->2.2.0, serve-static->1.8.0, should->4.6.0
 
