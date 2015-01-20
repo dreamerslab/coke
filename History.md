@@ -1,5 +1,11 @@
 # Histroy
 
+## 0.25.2 / 2015-01-20
+- [bug fix] method name changed for utils.db
+- [update packages] should->4.6.1
+
+
+
 ## 0.25.1 / 2015-01-14
 - [bug fix] Pass mongooseConnection instead of db instance for express session
 
