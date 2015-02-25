@@ -1,5 +1,10 @@
 # Histroy
 
+## 0.25.3 / 2015-01-20
+- [update packages] body-parser->1.12.0, cookie-parser->1.3.4, connect-mongo->0.7.0, csurf->1.7.0, errorhandler->1.3.4, express->4.12.0, express-session->1.10.3, inflection->1.6.0, js-yaml->3.2.7, mongoose->3.8.23, rmdir->1.1.0, serve-static->1.9.1, should->5.0.1
+
+
+
 ## 0.25.2 / 2015-01-20
 - [bug fix] method name changed for utils.db
 - [update packages] should->4.6.1
